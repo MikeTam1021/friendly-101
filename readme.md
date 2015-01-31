@@ -4,7 +4,7 @@ This repository contains the source code and documentation of the [Friendly Djan
 
 The code was written in [reStructuredText](http://docutils.sourceforge.net/rst.html), exported with [Sphinx](http://sphinx-doc.org/), and uploaded to [Read the Docs](https://readthedocs.org/). Wikipedia's article on [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) will make you less sad.
 
-You will likely simply want to read the documentation instead of generating it for yourself, but read on if you're curious.
+You will likely simply want to [read the documentation](https://friendly-django-101.readthedocs.org/), but read on if you're curious about generating it for yourself.
 
 ## Installation
 
@@ -30,10 +30,10 @@ python -m SimpleHTTPServer
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000). Kill with `Ctrl+C`.
 
-If you're in a hurry, running one command to go up the directories, create a build, go back down the directories, and run the server will work.
+Run `sphinx-autobuild` to watch for changes to your docs and have it automatically recreate a build when a change occurs. Magic!
 
 ```
-cd ../../ && make html && cd _build/html/ && python -m SimpleHTTPServer
+sphinx-autobuild docs docs/_build/html
 ```
 
-If you're interested in generating documentation for your own project from scratch, you can follow the same spirit of the instructions above, but with `pip install sphinx`, `pip install sphinx-rtd-theme`, and `sphinx-quickstart`. There is a lot more in the [Sphinx tutorial](http://sphinx-doc.org/tutorial.html). The source code of your project doesn't even need to be in Python to use Sphinx and Read the Docs!
+If you're interested in generating documentation for your own project from scratch, you can follow the spirit of the same instructions above, but with `pip install sphinx sphinx-autobuild sphinx-rtd-theme` and `sphinx-quickstart`. There is a lot more in the [Sphinx tutorial](http://sphinx-doc.org/tutorial.html). The source code of your project doesn't even need to be in Python to use Sphinx and Read the Docs!
