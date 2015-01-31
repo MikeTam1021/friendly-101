@@ -30,10 +30,8 @@ python -m SimpleHTTPServer
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000). Kill with `Ctrl+C`.
 
-Run `sphinx-autobuild` to watch for changes to your docs and have it automatically recreate a build when a change occurs. Magic!
+Or run `sphinx-autobuild` to watch for changes to your docs and automatically recreate a build when a change occurs. Magic!
 
 ```
 sphinx-autobuild docs docs/_build/html
 ```
-
-If you're interested in generating documentation for your own project from scratch, you can follow the spirit of the same instructions above, but with `pip install sphinx sphinx-autobuild sphinx-rtd-theme` and `sphinx-quickstart`. There is a lot more in the [Sphinx tutorial](http://sphinx-doc.org/tutorial.html). The source code of your project doesn't even need to be in Python to use Sphinx and Read the Docs!
