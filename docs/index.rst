@@ -6,7 +6,7 @@
 Welcome to Django 101!
 ======================
 
-Django 101 is a tutorial and hands-on workshop by the `Friendly Django <https://friendlydjango.org/>`_ Meetup group. It acts as an introduction for beginners to the `Django <https://www.djangoproject.com/>`_ web framework.
+Django 101 is a tutorial and hands-on workshop by the `Friendly Django <https://friendlydjango.org/>`_ Meetup group. It acts as an introduction to the `Django <https://www.djangoproject.com/>`_ web framework for beginners.
 
 This documentation is saved in a `GitHub repository <https://github.com/friendlydjango/friendly-django-101>`_.
 
