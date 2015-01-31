@@ -4,12 +4,29 @@
    contain the root `toctree` directive.
 
 Welcome to Django 101!
-======================================
+======================
+
+Django 101 is a tutorial for helping developers get introducted to the `Django <https://www.djangoproject.com/>`_ web framework, and also acts as a workshop offered by the `Friendly Django <https://friendlydjango.org/>`_ Meetup group.
+
+This documentation is saved in a `GitHub repository <https://github.com/friendlydjango/friendly-django-101>`_.
+
 
 Prerequisites:
 --------------
 
 - A Mac
 
+
+Contents:
+---------
+
 .. toctree::
    :maxdepth: 2
+
+   Bash profile <bashprofile>
+   Xcode <xcode>
+   Homebrew <homebrew>
+   SQLite <sqlite>
+   Python <python>
+   virtualenv <virtualenv>
+   Django <django>
