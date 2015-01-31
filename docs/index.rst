@@ -23,6 +23,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   Sublime Text <sublimetext>
    Bash profile <bashprofile>
    Xcode <xcode>
    Homebrew <homebrew>
