@@ -35,3 +35,5 @@ Or run `sphinx-autobuild` to watch for changes to your docs and automatically re
 ```
 sphinx-autobuild docs docs/_build/html
 ```
+
+The original [reStructuredText docs](http://read-the-docs.readthedocs.org/en/latest/getting_started.html#in-rst) are automatically sent to [Read the Docs](http://read-the-docs.readthedocs.org/) via a [Webhook](http://read-the-docs.readthedocs.org/en/latest/webhooks.html) whenever a `git push` happens. Read the Docs will impressively [create the static build](http://read-the-docs.readthedocs.org/en/latest/builds.html) on its own servers after [receiving only](http://read-the-docs.readthedocs.org/en/latest/getting_started.html#import-your-docs) OAuth authorization to the GitHub account and a specific GitHub project repository URL.
