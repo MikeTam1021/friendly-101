@@ -1,6 +1,6 @@
 # Django 101
 
-This repository contains the source code and documentation of the [Friendly Django](https://friendlydjango.org/) Meetup group's introductory tutorial to installing [Django](https://www.djangoproject.com/) for beginners.
+Django 101 is a tutorial and hands-on workshop by the [Friendly Django](https://friendlydjango.org/) Meetup group. It acts as an introduction for beginners to the [Django](https://www.djangoproject.com/) web framework.
 
 The code was written in [reStructuredText](http://docutils.sourceforge.net/rst.html), exported with [Sphinx](http://sphinx-doc.org/), and uploaded to [Read the Docs](https://readthedocs.org/). Wikipedia's article on [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) will make you less sad.
 
