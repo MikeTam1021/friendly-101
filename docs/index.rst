@@ -23,7 +23,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   Sublime Text <sublimetext>
+   Text editor <texteditor>
    Bash profile <bashprofile>
    Xcode <xcode>
    Homebrew <homebrew>
