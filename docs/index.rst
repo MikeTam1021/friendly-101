@@ -23,7 +23,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   Introduction <introduction>
    Text editor <texteditor>
+   Shell <shell>
    Bash profile <bashprofile>
    Xcode <xcode>
    Homebrew <homebrew>

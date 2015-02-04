@@ -7,6 +7,9 @@ A text editor is an application that allows you to write code, which is simply t
 
 Like all good things in life, people have a wide range of opinions on which text editor is "the best." And like all good things in life, finding "the best" text editor is not important; what's important is finding the best text editor *for you*.
 
+What is Sublime Text?
+---------------------
+
 As a beginning developer, you should use a text editor that is fairly easy to understand and use, is in active development, offers plugins and add-ons after you become more advanced, has a strong community supporting it, and doesn't cost much. For those reasons, I recommend **Sublime Text**.
 
 Sublime Text is a popular, open-source text editor that beginners and professionals alike use. Hundreds of `add-on packages <https://packagecontrol.io/>`_, `themes <https://packagecontrol.io/browse/labels/theme>`_, and `tutorials <http://code.tutsplus.com/categories/sublime-text>`_ exist for it. It's also free with minimal intrusion. `Download Sublime Text <http://www.sublimetext.com/>`_ from its website by clicking the "Download for OS X" button.
@@ -14,6 +17,9 @@ Sublime Text is a popular, open-source text editor that beginners and profession
 .. figure:: img/text_edtior-website.png
    :target: http://www.sublimetext.com/
    :alt: Sublime Text website
+
+Installing Sublime Text
+-----------------------
 
 Find the DMG you downloaded, which is probably in your ``Downloads`` folder and was called ``Sublime Text 2.0.2.dmg`` at the time of this writing. 
 
@@ -37,7 +43,10 @@ Congratulations! You are now using a world-class text editor.
 .. figure:: img/text_editor-sublime_text.png
    :alt: Sublime Text window
 
-Although Sublime Text is free, it pops up an occasional window reminding you to purchase it if you found it useful. You can click ``Cancel`` or close the window when it appears, but feel free to eventually support the developers who work hard to make software free to use.
+Although Sublime Text is free, it pops up an occasional window reminding you to purchase it if you found it useful. You can click ``Cancel`` or press ``Esc`` when it appears, but feel free to eventually support the developers who work hard to make software free to use.
+
+.. figure:: img/text_editor-purchase.png
+   :alt: Sublime Text purchase
 
 I recommend dragging the Sublime Text icon from the ``Applications`` folder `into your Dock <http://support.apple.com/kb/PH18815>`_ for easy access in the future.
 
