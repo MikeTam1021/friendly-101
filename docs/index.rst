@@ -25,7 +25,7 @@ Contents:
 
    Introduction <introduction>
    Text editor <texteditor>
-   Shell <shell>
+   Command line <commandline>
    Bash profile <bashprofile>
    Xcode <xcode>
    Homebrew <homebrew>

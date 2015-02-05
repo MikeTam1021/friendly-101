@@ -6,7 +6,7 @@ The first step in any web developer's journey is to get a good text editor.
 What is a text editor?
 ----------------------
 
-A text editor is an application that allows you to write code, which is simply text without formatting options like bold or alignment. `Microsoft Word <https://en.wikipedia.org/wiki/Microsoft_Word>`_ and `TextEdit <https://en.wikipedia.org/wiki/TextEdit>`_ are word processors, which are similar to text editors, but often come with features that make those applications inappropriate for writing code.
+A **text editor** is an application that allows you to write code, which is simply text without formatting options like bold or alignment. `Microsoft Word <https://en.wikipedia.org/wiki/Microsoft_Word>`_ and `TextEdit <https://en.wikipedia.org/wiki/TextEdit>`_ are word processors, which are similar to text editors, but often come with features that make those applications inappropriate for writing code.
 
 Like all good things in life, people have a wide range of opinions on which text editor is "the best." And like all good things in life, finding "the best" text editor is not important; what's important is finding the best text editor *for you*.
 
@@ -53,8 +53,8 @@ Although Sublime Text is free, it pops up an occasional window reminding you to 
 
 I recommend dragging the Sublime Text icon from the ``Applications`` folder `into your Dock <http://support.apple.com/kb/PH18815>`_ for easy access in the future.
 
-It's always good to remember that what's in vogue today might not be in vogue tomorrow. A few years ago, `TextMate <http://macromates.com/>`_ was the text editor of choice until it languished in development. `Coda <https://panic.com/coda/>`_ has a small but dedicated audience. Seasoned veterans use `Vim <https://en.wikipedia.org/wiki/Vim_(text_editor)>`_ and `Emacs <http://en.wikipedia.org/wiki/Emacs>`_, and newcomers include `Brackets <http://brackets.io/>`_ and `Atom <https://atom.io/>`_.
+It's always good to remember that what's in vogue today might not be in vogue tomorrow. A few years ago, `TextMate <http://macromates.com/>`_ was the text editor of choice until it languished in development. `Coda <https://panic.com/coda/>`_ has a small but dedicated audience. Seasoned veterans use `Vim <https://en.wikipedia.org/wiki/Vim_(text_editor)>`_ and `Emacs <http://en.wikipedia.org/wiki/Emacs>`_, and newcomers include `Brackets <http://brackets.io/>`_ and `Atom <https://atom.io/>`_. You might even get a sheepish confession from someone using `nano <https://en.wikipedia.org/wiki/GNU_nano>`_.
 
-Developers might like to brag about their text editor of choice, but always remember: What you make in your editor is far more important than which editor you're using.
+Developers like to brag about their text editor of choice, but always remember: What you make in your editor is far more important than which editor you're using.
 
 Now that we have a text editor, let's start using it!
