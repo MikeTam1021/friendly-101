@@ -26,10 +26,8 @@ Contents:
    Introduction <introduction>
    Text editor <texteditor>
    Command line <commandline>
+   Command line tools <commandlinetools>
    Bash profile <bashprofile>
-   Xcode <xcode>
    Homebrew <homebrew>
-   SQLite <sqlite>
-   Python <python>
-   virtualenv <virtualenv>
+   pip & virtualenv <pipvirtualenv>
    Django <django>
