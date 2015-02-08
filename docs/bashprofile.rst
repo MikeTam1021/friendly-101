@@ -42,7 +42,7 @@ Understanding your PATH
 The first edit to your Bash profile is to correct your |PATH|_. ``$PATH`` is an **environment variable**, which simply means that it represents some small bit of data while you use Terminal. Specifically, ``$PATH`` contains a list of file system paths where the operating system can find programs to run.
 
 .. |PATH| replace:: ``$PATH``
-.. _PATH: http://en.wikipedia.org/wiki/PATH_%28variable%29
+.. _PATH: https://en.wikipedia.org/wiki/PATH_%28variable%29
 
 When a developer runs a program in Bash, the operating system will sequentially look for the program in each of the paths that ``$PATH`` contains, starting with the first path listed. If the operating system can't find the program in the first path, it looks for the same program in the second path, and so on, until either eventually finding and running the program or returning an error if the program couldn't be found.
 

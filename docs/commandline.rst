@@ -24,7 +24,7 @@ Open a Finder window, navigate to the ``Applications`` folder, then the ``Utilit
 .. figure:: img/command_line-terminal.png
    :alt: Terminal
 
-The first line tells me when I last started a Bash session (``Last login: Mon Feb 5 09:58:08``) and on which `Teletypes <http://en.wikipedia.org/wiki/Teleprinter>`_ (``ttys000``), although today the equivalent is simply a tab in Terminal, much like a tab in a web browser. The second line tells me the name of my computer on the network (``Rich``), my current directory (``~``, which is my home directory), the name of my user account (``rich``), and the symbol indicating a prompt for user input (``$``).
+The first line tells me when I last started a Bash session (``Last login: Mon Feb 5 09:58:08``) and on which `Teletypes <https://en.wikipedia.org/wiki/Teleprinter>`_ (``ttys000``), although today the equivalent is simply a tab in Terminal, much like a tab in a web browser. The second line tells me the name of my computer on the network (``Rich``), my current directory (``~``, which is my home directory), the name of my user account (``rich``), and the symbol indicating a prompt for user input (``$``).
 
 Feel free to trick it out in the preferences. I like to make mine look like `The Matrix <http://www.imdb.com/media/rm541630976/tt0133093>`_.
 
@@ -94,7 +94,27 @@ These commands and others can be combined in interesting ways that would be diff
    # Open the current directory in Finder
    $ open .
 
-If you feel like you need additional guidance, `The Command Line Crash Course <http://cli.learncodethehardway.org/book/>`_ by Zed Shaw is excellent.
+.. note::
+
+   You can type the first few letters of a file or directory and then press ``tab`` to cycle through or autocomplete possible current files or directories.
+
+Additional commands include:
+
+.. code-block:: bash
+
+   # Move or rename a directory or file
+   $ mv <directory or file> <destination>
+
+   # Copy a file or directory
+   $ cp <directory or file> <destination>
+
+   # Delete (remove a file)
+   $ rm <directory or file>
+
+   # Closes the Bash session
+   $ exit
+
+If you feel like you need additional guidance, `The Command Line Crash Course <http://cli.learncodethehardway.org/book/>`_ by Zed Shaw is excellent, and `SS64 <http://ss64.com/>`_ lists all Bash commands.
 
 But who are any of us, really?
 ------------------------------
@@ -109,7 +129,12 @@ You should've gotten a response with the name of your user account.
 
 .. code-block:: bash
 
+   $ whoami
    Rich
+
+.. note::
+
+   After entering your first command, you can hit the up arrow ``↑`` or down arrow ``↓`` key to cycle through previous commands.
 
 .. _terminal_meet_sublime:
 
@@ -122,6 +147,6 @@ Let's run a powerful command, a helpful trick that will connect Terminal to Subl
 
    $ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
-This command will create a `symbolic link <http://en.wikipedia.org/wiki/Symbolic_link>`_, which is the equivalent of an alias or shortcut in the Finder. From now on, when we type ``subl`` and the name of a directory or file in Terminal, that same directory or file will pop up in Sublime Text, ready for us to edit!
+This command will create a `symbolic link <https://en.wikipedia.org/wiki/Symbolic_link>`_, which is the equivalent of an alias or shortcut in the Finder. From now on, when we type ``subl`` and the name of a directory or file in Terminal, that same directory or file will pop up in Sublime Text, ready for us to edit!
 
 Just like text editors, people have varying opinions on shells. `Bash <https://en.wikipedia.org/wiki/Bash_(Unix_shell)>`_ is most popular, but some developers claim `Z shell <https://en.wikipedia.org/wiki/Z_shell>`_ can be more productive. Terminal comes with OS X, but some swear by `iTerm2 <http://iterm2.com/>`_. Get comfortable with what's most accessible and when you feel confident, explore what else is out there.

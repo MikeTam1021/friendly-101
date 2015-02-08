@@ -13,7 +13,7 @@ The DMG you downloaded is known as a **binary**, which was *compiled* from sourc
 Installing the tools
 --------------------
 
-Compiling on OS X requires the `GNU Compiler Collection <http://en.wikipedia.org/wiki/GNU_Compiler_Collection>`_, or GCC, and is included in the **Command Line Tools** software by Apple. Although you can download the Command Line Tools from the `Apple Developer website <https://developer.apple.com/downloads/>`_, it is often more convenient to simply download and install it from the command line.
+Compiling on OS X requires the `GNU Compiler Collection <https://en.wikipedia.org/wiki/GNU_Compiler_Collection>`_, or GCC, and is included in the **Command Line Tools** software by Apple. Although you can download the Command Line Tools from the `Apple Developer website <https://developer.apple.com/downloads/>`_, it is often more convenient to simply download and install it from the command line.
 
 Open Terminal, copy and paste the following, and press ``Return``. Review the :ref:`Command line` lesson if necessary.
 
