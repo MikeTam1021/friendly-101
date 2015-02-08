@@ -13,7 +13,7 @@ Like all good things in life, people have a wide range of opinions on which text
 Sublime Text is your new friend
 -------------------------------
 
-As a beginning developer, you should use a text editor that is fairly easy to understand and use, is in active development, offers add-ons after you become advanced, and doesn't cost much. For those reasons, I recommend **Sublime Text**.
+As a beginner developer, you should use a text editor that is fairly easy to understand and use, is in active development, offers add-ons when you become advanced, and hopefully doesn't cost much. For those reasons, I recommend **Sublime Text**.
 
 `Sublime Text <http://www.sublimetext.com/>`_ is a popular, open-source text editor that beginners and professionals alike use. Hundreds of `add-on packages <https://packagecontrol.io/>`_, `themes <https://packagecontrol.io/browse/labels/theme>`_, and `tutorials <http://code.tutsplus.com/categories/sublime-text>`_ exist for it. It's also free with minimal intrusion. Download Sublime Text from its website by clicking on the ``Download for OS X`` button.
 
@@ -29,7 +29,7 @@ Find the DMG you downloaded, which is probably in your ``Downloads`` folder and 
 .. figure:: img/text_editor-downloads.png
    :alt: Downloads folder
 
-DMG stands for Disk Image, and is the file format for applications. Open the DMG by double clicking on it. The DMG will mount the Finder and a new window will appear. Drag the ``Sublime Text 2`` icon into the ``Applications`` shortcut folder.
+DMG stands for `Disk Image <https://en.wikipedia.org/wiki/Apple_Disk_Image>`_, and is the file format for OS X applications. Open the DMG by double clicking on it. The DMG will mount the Finder and a new window will appear. Drag the ``Sublime Text 2`` icon into the ``Applications`` shortcut folder.
 
 .. figure:: img/text_editor-mount.png
    :alt: Sublime Text mount window
@@ -46,7 +46,7 @@ Congratulations! You are now using a world-class text editor.
 .. figure:: img/text_editor-sublime_text.png
    :alt: Sublime Text window
 
-Although Sublime Text is free, it pops up an occasional window reminding you to purchase it. You can click ``Cancel`` or press ``Esc`` when it appears, but feel free to eventually support the developers who work hard to make software free to use.
+Although Sublime Text is free to use, it pops up an occasional window reminding you to purchase it. You can click ``Cancel`` or press ``Esc`` when it appears, but feel free to eventually support the developers who work hard to make software free to use.
 
 .. figure:: img/text_editor-purchase.png
    :alt: Sublime Text purchase

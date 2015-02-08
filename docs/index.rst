@@ -17,6 +17,16 @@ Prerequisites:
 - A Mac
 
 
+Compatibility:
+--------------
+
+The guide is written for the following versions of software:
+
+- `Python 2.7.9 <https://www.python.org/downloads/release/python-279/>`_
+- `SQLite 3.8.7.4 <http://www.sqlite.org/download.html>`_
+- `Django 1.7 <https://docs.djangoproject.com/en/1.7/releases/1.7/>`_
+
+
 Contents:
 ---------
 
