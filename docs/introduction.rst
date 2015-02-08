@@ -31,7 +31,7 @@ Who are you again?
 
 Hello, my name is Rich Cornish. I first used Django in the fall of 2006 and quicky fell in love working with it. I then worked as an interaction designer at the same online division at the Lawrence Journal-World from 2007 to 2009.
 
-Today I work as a UX designer and feel privileged that I can share the lessons I learned about web development from the perspective of a designer. I graduated from the `University of Illinois at Urbana-Champaign <http://illinois.edu/>`_ with master and bachelor degrees in journalism.
+Today I work as a UX designer and feel privileged that I can share the lessons I learned about web development from the perspective of a designer. I graduated from the `University of Illinois at Urbana-Champaign <http://illinois.edu/>`_ with master degree in journalism.
 
 What is Django 101?
 -------------------
