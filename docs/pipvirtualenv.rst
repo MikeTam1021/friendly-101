@@ -59,7 +59,7 @@ pip downloads packages from the `Python Package Index <https://pypi.python.org/p
 We are VR
 ---------
 
-`virtualenv <http://virtualenv.readthedocs.org/>`_ is a Python package that isolates your development environment, preventing packages from colliding and conflicting with one another. In the bad old days, one would install Python packages globally and cross their fingers and hope everything would be `OK <https://www.youtube.com/watch?v=7ugn1ejC1Jc>`_.
+`virtualenv <http://virtualenv.readthedocs.org/>`_ is a Python package that isolates your development environment, preventing packages from colliding and conflicting with one another. In the bad old days, one would install Python packages globally, cross their fingers, and hope everything would be `OK <https://www.youtube.com/watch?v=7ugn1ejC1Jc>`_.
 
 Some developers don't use it, but I also recommend `virtualenvwrapper <http://virtualenvwrapper.readthedocs.org/>`_, which is a collection of additional helpers that makes working with virtualenv easier. It's another layer of abstraction, but I think the returns come back fairly quickly. virtualenv and virtualenvwrapper can be installed with pip in just one command.
 
