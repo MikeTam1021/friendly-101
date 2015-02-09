@@ -108,14 +108,14 @@ You don't need to run the last command in the success message.
 
 .. note::
 
-   Python 3 is the next major version of the Python programming language. It is a backward-incompatible change, however migration guides for `Python <https://docs.python.org/3/howto/pyporting.html>`_ and `Django <https://docs.djangoproject.com/en/1.7/topics/python3/>`_ exist. Although eventually updating code to Python 3 compatibility is probably a good idea in the long run, Python 2 is excepted to be supported `until 2020 <https://www.python.org/dev/peps/pep-0373/>`_ at the time of this writing.
+   Python 3 is the next major version of the Python programming language. It is a backward-incompatible upgrade, however migration guides for `Python <https://docs.python.org/3/howto/pyporting.html>`_ and `Django <https://docs.djangoproject.com/en/1.7/topics/python3/>`_ exist. Eventually updating code to Python 3 compatibility is  a good idea in the long run, Python 2 is excepted to be supported `until 2020 <https://www.python.org/dev/peps/pep-0373/>`_ at the time of this writing.
 
 Installing SQLite
 -----------------
 
-Django also requires a `SQL database <https://docs.djangoproject.com/en/1.7/intro/install/#set-up-a-database>`_. `SQL <https://en.wikipedia.org/wiki/SQL>`_, which stands for Structured Query Language, is a category of programming language that interacts with relational databases.
+Django also requires a `SQL database <https://docs.djangoproject.com/en/1.7/intro/install/#set-up-a-database>`_. `SQL <https://en.wikipedia.org/wiki/SQL>`_, which stands for Structured Query Language, is a category of programming languages that interact with `relational databases <http://en.wikipedia.org/wiki/Relational_database>`_.
 
-`SQLite <http://www.sqlite.org/>`_ is a good candidate for beginner developers because it's easier to use than its more robust but more complicated peers, like `PostgreSQL <http://www.postgresql.org/>`_ and `MySQL <http://www.mysql.com/>`_.
+`SQLite <http://www.sqlite.org/>`_ is a good candidate for beginner developers because it's easier to use than its more complicated but more robust peers, like `PostgreSQL <http://www.postgresql.org/>`_ and `MySQL <http://www.mysql.com/>`_.
 
 .. code-block:: bash
 
@@ -158,12 +158,12 @@ The success message should look something like:
 
 .. warning::
 
-   Do not use SQLite in a production environment. SQLite supports a low number of concurrent database connections, which makes it a good candidate for development local to your computer, but it is not recommended for use on the web.
+   Do not use SQLite in a production environment. SQLite supports a low number of concurrent database connections, which makes it a good candidate for development local to your computer, but is not recommended for use on the web.
 
 Troubleshooting Homebrew
 ------------------------
 
-Although Homebrew has a `troubleshooting checklist <https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Troubleshooting.md>`_, in general the following commands are most helpful in keeping your brews up to date and trouble free.
+Homebrew has a `troubleshooting checklist <https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Troubleshooting.md>`_, but in general the following commands are the most helpful in keeping your brews up to date and trouble free.
 
 .. code-block:: bash
 

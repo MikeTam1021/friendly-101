@@ -26,7 +26,7 @@ It might seem strange to use a package manager to have downloaded, well, *anothe
 pip installs...what?
 --------------------
 
-`pip <https://pip.pypa.io/>`_ is a `recursive acronym <https://en.wikipedia.org/wiki/Recursive_acronym>`_ for "pip installs packages" and is, in and of itself, a Python package. If Homebrew didn't install pip automatically, we would have installed pip with the precursor package manager ``easy_install``. Some common commands you'll run with pip:
+`pip <https://pip.pypa.io/>`_ is a `recursive acronym <https://en.wikipedia.org/wiki/Recursive_acronym>`_ for "pip installs packages" and is, in and of itself, a Python package. If Homebrew didn't install pip automatically, we would have installed pip with the predecessor package manager ``easy_install``. Some common commands you'll run with pip:
 
 .. code-block:: bash
 
@@ -61,7 +61,7 @@ We are VR
 
 `virtualenv <http://virtualenv.readthedocs.org/>`_ is a Python package that isolates your development environment, preventing packages from colliding and conflicting with one another. In the bad old days, one would install Python packages globally and cross their fingers and hope everything would be `OK <https://www.youtube.com/watch?v=7ugn1ejC1Jc>`_.
 
-Although some developers don't use it, I also recommend `virtualenvwrapper <http://virtualenvwrapper.readthedocs.org/>`_, which is a collection of additional helpers that makes working with virtualenv easier. It's another layer of abstraction, but I think the returns come back fairly quickly. virtualenv and virtualenvwrapper can be installed with pip in just one command.
+Some developers don't use it, but I also recommend `virtualenvwrapper <http://virtualenvwrapper.readthedocs.org/>`_, which is a collection of additional helpers that makes working with virtualenv easier. It's another layer of abstraction, but I think the returns come back fairly quickly. virtualenv and virtualenvwrapper can be installed with pip in just one command.
 
 .. code-block:: bash
 
