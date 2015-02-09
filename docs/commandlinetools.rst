@@ -1,3 +1,5 @@
+.. _`Command line tools`:
+
 Command line tools
 ==================
 

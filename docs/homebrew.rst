@@ -1,3 +1,5 @@
+.. _`Homebrew`:
+
 Homebrew
 ========
 
@@ -16,7 +18,7 @@ Homebrew is written in Ruby, but it can be used to compile almost any other soft
 
 .. warning::
 
-   Homebrew is a package manager for larger "general purpose" packages, such as Python, SQLite, MySQL, PostgreSQL, or Git. Do not install packages whose languages have package managers of their own. For example, packages written in Python should be installed not with Homebrew but with pip, which will be explained later.
+   Homebrew is a package manager for larger "general purpose" packages, such as Python, SQLite, MySQL, PostgreSQL, or Git. Do not install packages whose languages have package managers of their own. For example, packages written in Python should not be installed with Homebrew but with pip, which will be explained later.
 
 Let's start brewing
 -------------------
@@ -39,12 +41,12 @@ You should run ``brew doctor`` and any other instructions to make sure Homebrew 
 
    $ brew doctor
 
+.. _installing_python:
+
 Installing Python
 -----------------
 
 Django is written in the `Python <https://www.python.org/>`_ programming language, and as such `requires Python <https://docs.djangoproject.com/en/1.7/intro/install/#install-python>`_ to run. OS X comes with a pre-installed version of Python, which is located at ``/usr/bin/python``, but because we want to use a newer version of Python, we are going to use Homebrew.
-
-It is my belief that people learn best when they create interesting, useful things as "quick wins" in Django, and can then "work backward" to progressively learn more about how Python works in the context of Django. When people feel more comfortable in Django, there are plenty of other `resources <http://learnpythonthehardway.org/book/>`_, `frameworks <http://flask.pocoo.org/>`_, and `libraries <https://pypi.python.org/pypi>`_ for people to continue their journey.
 
 Run this command to install Python with Homebrew.
 
@@ -154,7 +156,9 @@ The success message should look something like:
    --without-rtree
     Disable the R*Tree index module
 
-It's possible to avoid installing Homebrew packages by visiting the respective websites of `Python <https://www.python.org/>`_, `SQLite <http://www.sqlite.org/>`_, and others, and installing each DMG (or worse, compiling manually), but I highly recommend  Homebrew for of its convenience and ease of use.
+.. warning::
+
+   Do not use SQLite in a production environment. SQLite supports a low number of concurrent database connections, which makes it a good candidate for development local to your computer, but it is not recommended for use on the web.
 
 Troubleshooting Homebrew
 ------------------------
@@ -163,20 +167,28 @@ Although Homebrew has a `troubleshooting checklist <https://github.com/Homebrew/
 
 .. code-block:: bash
 
-   # Retrieve information about installed packages
-   $ brew info
+   # Search to see if a package is available
+   $ brew search <package>
 
-   # Update existing formulae
+   # Display information about an installed package
+   $ brew info <package>
+
+   # Install a new package
+   $ brew install <package>
+
+   # Update installed packages
    $ brew update
 
-   # Install new versions of installed packages
-   $ brew upgrade
+   # Update to new major versions of installed packages
+   $ brew upgrade (<package>)
 
    # Remove the old (existing but unused) versions of packages
-   $ brew cleanup
+   $ brew cleanup (<package>)
 
    # Delete stray symbolic links
    $ brew prune
 
    # Check all packages for installation integrity
    $ brew doctor
+
+It's possible to avoid installing Homebrew packages by visiting the respective websites of `Python <https://www.python.org/>`_, `SQLite <http://www.sqlite.org/>`_, and others, and installing each DMG (or worse, compiling manually), but I highly recommend  Homebrew for of its convenience and ease of use.

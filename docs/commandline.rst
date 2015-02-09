@@ -33,6 +33,8 @@ Feel free to trick it out in the preferences. I like to make mine look like `The
 
 I also recommend dragging the Terminal icon from the Applications folder `into your Dock <http://support.apple.com/kb/PH18815>`_ for easy access in the future.
 
+.. _common_bash_commands:
+
 Common Bash commands
 --------------------
 

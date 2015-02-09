@@ -103,4 +103,4 @@ Ensure that ``/usr/local/bin`` is listed prior to ``/usr/bin``.
 
    Although Terminal allows a Bash profile to be sourced on command without restarting (``source ~/.bash_profile``) the method can be unreliable.
 
-``PATH`` is just one evironment variable we changed in our Bash profile. There are a lot more, like ``USER`` for the current user (you!) and ``EDITOR`` for the default text editor inside the command line. We will edit our Bash profile a few more times to run other important code in the future.
+``PATH`` is just one evironment variable we changed in our Bash profile. There are a lot more, like ``USER`` for the current user (you!) and ``HOME`` for the path to the home directory of the current user. We will edit our Bash profile a few more times to run other important code in the future.

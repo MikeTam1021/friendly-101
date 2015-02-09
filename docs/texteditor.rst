@@ -1,3 +1,5 @@
+.. _`Text editor`:
+
 Text editor
 ===========
 
