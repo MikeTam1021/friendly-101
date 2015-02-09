@@ -104,6 +104,9 @@ It is worth noting that virtualenvwrapper automatically puts you inside a virtua
 
 .. code-block:: bash
 
+   # List all virtual environments
+   $ lsvirtualenv
+
    # Make and enter a virtual environment
    $ mkvirtualenv <env>
 
