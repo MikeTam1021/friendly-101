@@ -23,6 +23,9 @@ If you haven't already made and entered your virtual environment, make one now.
 
 If you have an existing environment and exited it, enter it with ``workon myenv``.
 
+Installing Django
+-----------------
+
 We're all ready to go! Let's install Django with pip!
 
 .. code-block:: bash
@@ -86,6 +89,9 @@ After the database tables are created, run the local web server that comes with 
    Starting development server at http://127.0.0.1:8000/
    Quit the server with CONTROL-C.
 
+The moment of truth
+-------------------
+
 Time for the moment of truth! Open a web browser and go to `http://127.0.0.1:8000 <http://127.0.0.1:8000>`_. At long last you should see the "It worked!" page. Great job! Feel free to celebrate in the way befitting to you: back pats, high fives, fist bumps, etc.
 
 .. figure:: img/django-it_worked.png
@@ -96,6 +102,9 @@ You can go back to Terminal and quit the local server by pressing ``Ctrl+C``. Yo
 .. code-block:: bash
 
    ^C(myenv)$ deactivate
+
+Clean in house
+--------------
 
 I highly recommed setting a default project directory for your virtual environment. The default project directory is the directory you automatically change to when you start working on your project. You can start working in your Django project immediately without thinking about which directories to traverse.
 
