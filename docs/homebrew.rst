@@ -3,7 +3,7 @@
 Homebrew
 ========
 
-Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to drive one to drink until **Homebrew** arrived to make compiling source code much easier.
+Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `Some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to drive one to drink until **Homebrew** arrived to make compiling source code much easier.
 
 What's Hombrew?
 ---------------
