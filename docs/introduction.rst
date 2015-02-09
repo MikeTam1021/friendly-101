@@ -40,7 +40,7 @@ Today I work as a UX designer and feel privileged that I can share the lessons I
 What is Django 101?
 -------------------
 
-This mission of Django 101 is to be a guide for beginners wanting to learn Django. Although other text have similar missions for other technologies, this text is different because I endeavor to meet the following standards:
+This mission of Django 101 is to be a guide for beginners wanting to learn Django. Other text have similar missions for other technologies, but this text is different because I endeavor to meet the following standards:
 
 - Easy to read and understand
 

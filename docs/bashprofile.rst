@@ -81,7 +81,7 @@ Save and close the file.
 Sourcing your Bash profile
 --------------------------
 
-Although we edited our Bash profile, it is critical to remember the code in Bash profile runs only when a *new Bash session is created*, which is called **sourcing**. Therefore, our changes will take effect when you quit Terminal and open it again to make sure that ``PATH`` is in fact exported. When Terminal is open again, you can check the value of ``PATH`` by running the ``echo`` command:
+We edited our Bash profile, but it is critical to remember the code in Bash profile runs only when a *new Bash session is created*, which is called **sourcing**. Therefore, our changes will take effect when you quit Terminal and open it again to make sure that ``PATH`` is in fact exported. When Terminal is open again, you can check the value of ``PATH`` by running the ``echo`` command:
 
 .. code-block:: bash
 

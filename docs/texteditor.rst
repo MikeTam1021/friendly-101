@@ -48,7 +48,7 @@ Congratulations! You are now using a world-class text editor.
 .. figure:: img/text_editor-sublime_text.png
    :alt: Sublime Text window
 
-Although Sublime Text is free to use, it pops up an occasional window reminding you to purchase it. You can click ``Cancel`` or press ``Esc`` when it appears, but feel free to eventually support the developers who work hard to make software free to use.
+Sublime Text is free to use, but it pops up an occasional window reminding you to purchase it. You can click ``Cancel`` or press ``Esc`` when it appears, but feel free to eventually support the developers who work hard to make software free to use.
 
 .. figure:: img/text_editor-purchase.png
    :alt: Sublime Text purchase

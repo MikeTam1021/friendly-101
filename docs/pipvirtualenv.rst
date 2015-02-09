@@ -100,7 +100,7 @@ Let's make a new virtual environment.
 
 The name of my virtual environment was the ever-so creative ``myenv``. You can see that I entered my environment because ``(myenv)`` prepends the ``$`` Bash prompt. Now whenever I install a package, it installs to the site packages directory of my virtual environment, which is ``/Users/Rich/.virtualenvs/myenv/lib/python2.7/site-packages``. Had I installed a package without being inside of my virtual environment, the package would have installed globally to ``/usr/local/lib/python2.7/site-packages``.
 
-It is worth noting that virtualenvwrapper automatically puts you inside a virtual environment whenever creating a new one. Although you won't totally understand these virtualenvwrapper commands, they're worth pointing out now because we'll use some of them in the future (``<env>`` standing for the name of an environment).
+It is worth noting that virtualenvwrapper automatically puts you inside a virtual environment whenever creating a new one. You won't totally understand these virtualenvwrapper commands, but they're worth pointing out now because we'll use some of them in the future (``<env>`` standing for the name of an environment).
 
 .. code-block:: bash
 

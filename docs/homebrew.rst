@@ -3,7 +3,7 @@
 Homebrew
 ========
 
-Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. Although `some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, it was said that the process was enough to drive one to drink until **Homebrew** arrived to make compiling source code much easier.
+Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to drive one to drink until **Homebrew** arrived to make compiling source code much easier.
 
 What's Hombrew?
 ---------------
@@ -108,14 +108,14 @@ You don't need to run the last command in the success message.
 
 .. note::
 
-   Python 3 is the next major version of the Python programming language. It is a backward-incompatible upgrade, however migration guides for `Python <https://docs.python.org/3/howto/pyporting.html>`_ and `Django <https://docs.djangoproject.com/en/1.7/topics/python3/>`_ exist. Eventually updating code to Python 3 compatibility is  a good idea in the long run, Python 2 is excepted to be supported `until 2020 <https://www.python.org/dev/peps/pep-0373/>`_ at the time of this writing.
+   Python 3 is the next major version of the Python programming language. It is a backward-incompatible upgrade, however migration guides for `Python <https://docs.python.org/3/howto/pyporting.html>`_ and `Django <https://docs.djangoproject.com/en/1.7/topics/python3/>`_ exist. Updating code to Python 3 compatibility is a good idea in the long run, but Python 2 is excepted to be supported `until 2020 <https://www.python.org/dev/peps/pep-0373/>`_ at the time of this writing.
 
 Installing SQLite
 -----------------
 
 Django also requires a `SQL database <https://docs.djangoproject.com/en/1.7/intro/install/#set-up-a-database>`_. `SQL <https://en.wikipedia.org/wiki/SQL>`_, which stands for Structured Query Language, is a category of programming languages that interact with `relational databases <http://en.wikipedia.org/wiki/Relational_database>`_.
 
-`SQLite <http://www.sqlite.org/>`_ is a good candidate for beginner developers because it's easier to use than its more complicated but more robust peers, like `PostgreSQL <http://www.postgresql.org/>`_ and `MySQL <http://www.mysql.com/>`_.
+`SQLite <http://www.sqlite.org/>`_ is a good candidate for beginner developers because it's easier to use than its more complex but more robust peers, like `PostgreSQL <http://www.postgresql.org/>`_ and `MySQL <http://www.mysql.com/>`_.
 
 .. code-block:: bash
 
