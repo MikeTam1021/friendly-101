@@ -29,6 +29,8 @@ As a precaution, let's set the ownership of the ``/usr/local`` directory to your
 
    $ sudo chown -R `whoami` /usr/local
 
+Please note the use of the `grave accent <https://en.wikipedia.org/wiki/Grave_accent>`_ or "backtick" (`````), which are *not* single quotation marks. Backticks are to the left of the number ``1`` key on many keyboards. You could also use the environment variable ``$USER`` (assuming it wasn't overwritten) or type in your username manually, but this way is easiest and least error prone.
+
 Now install Homebrew.
 
 .. code-block:: bash
@@ -46,9 +48,14 @@ You should run ``brew doctor`` and any other instructions to make sure Homebrew 
 Installing Python
 -----------------
 
-Django is written in the `Python <https://www.python.org/>`_ programming language, and as such `requires Python <https://docs.djangoproject.com/en/1.7/intro/install/#install-python>`_ to run. OS X comes with a pre-installed version of Python, which is located at ``/usr/bin/python``, but because we want to use a newer version of Python, we are going to use Homebrew.
+Django is written in the `Python <https://www.python.org/>`_ programming language, and as such `requires Python <https://docs.djangoproject.com/en/1.7/intro/install/#install-python>`_ to run. OS X comes with a pre-installed version of Python. Let's find out where that installation currently lives.
 
-Run this command to install Python with Homebrew.
+.. code-block:: bash
+
+   $ which python
+   /usr/bin/python
+
+This version of Python is a little bit old by now, and it's the globally accessible version. To remedy these issues, let's use Homebrew to install a newer version of Python.
 
 .. code-block:: bash
 
@@ -101,6 +108,15 @@ The success message should look something like:
    Run `brew linkapps python` to symlink these to /Applications.
 
 You don't need to run the last command in the success message.
+
+Let's find out where our new installation of Python lives.
+
+.. code-block:: bash
+
+   $ which python
+   /usr/local/bin/python
+
+Excellent! Because we set precedence in our Bash profile to look for programs in ``/usr/local/bin``, and because Homebrew creates symbolic links to that location by default, we get our Homebrew installation whenever we reference Python from now on.
 
 .. note::
 

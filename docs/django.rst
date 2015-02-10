@@ -5,7 +5,7 @@ Django
 
 You have your text editor, compiler, Bash profile, package manager, programming language, and database. It's time to install Django!
 
-Let's find a suitable place for your Django project code. I prefer to save my websites to the ``Sites`` folder. The ``Sites`` folder used to be in your OS X home folder, but Apple removed it several versions ago. Let's put it back and change into it now.
+Let's find a suitable place for your Django project code. I prefer to save my websites to the ``Sites`` folder. The ``Sites`` folder used to be in your OS X home folder, but Apple removed it several versions ago. Let's put it back and change into it now. If it already exists, this command won't overwrite it.
 
 .. code-block:: bash
 
