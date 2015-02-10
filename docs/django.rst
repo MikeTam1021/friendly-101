@@ -106,20 +106,24 @@ You can go back to Terminal and quit the local server by pressing ``Ctrl+C``. Yo
 Clean in house
 --------------
 
-I highly recommed setting a default project directory for your virtual environment. The default project directory is the directory you automatically change to when you start working on your project. You can start working in your Django project immediately without thinking about which directories to traverse.
+I highly recommed setting a default project directory for your virtual environment. The default project directory is the directory you automatically change to when you start working on your project. You can start working immediately without thinking about which directories to traverse.
+
+You can set your project directory with virtualenvwrapper's ``setvirtualenvproject`` command.
 
 .. code-block:: bash
 
    $ setvirtualenvproject $WORKON_HOME/myenv ~/Sites/myproject
    Setting project for myenv to /Users/rich/Sites/myproject
 
-To start working on your project again, just run the ``workon`` command.
+To start working on your project again, just run the virtualenvwrapper ``workon`` command. I'll then run the Bash ``pwd`` command to show that I am in fact in the project directory.
 
 .. code-block:: bash
 
    $ workon myenv
    (myenv)$ pwd
-   /Users/rich/Sites/myproject/myproject
+   /Users/rich/Sites/myproject
+
+Additionally you can use the ``cdproject`` command to snap back to your project directory if you ever move away from it.
 
 Now that your project is set up, you can deactivate your virtual environment and exit your Bash Session cleanly.
 

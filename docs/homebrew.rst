@@ -3,7 +3,7 @@
 Homebrew
 ========
 
-Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `Some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to drive one to drink until **Homebrew** arrived to make compiling source code much easier.
+Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `Some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to drive one to drink until **Homebrew** arrived.
 
 What's Hombrew?
 ---------------
@@ -191,4 +191,4 @@ Homebrew has a `troubleshooting checklist <https://github.com/Homebrew/homebrew/
    # Check all packages for installation integrity
    $ brew doctor
 
-It's possible to avoid installing Homebrew packages by visiting the respective websites of `Python <https://www.python.org/>`_, `SQLite <http://www.sqlite.org/>`_, and others, and installing each DMG (or worse, compiling manually), but I highly recommend  Homebrew for of its convenience and ease of use.
+It's possible to avoid installing Homebrew packages by visiting the respective websites of `Python <https://www.python.org/>`_, `SQLite <http://www.sqlite.org/>`_, and others, and installing each DMG (or worse, compiling manually), but I highly recommend  Homebrew for its convenience and ease of use.

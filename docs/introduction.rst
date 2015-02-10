@@ -35,22 +35,22 @@ Who are you again?
 
 Hello, my name is Rich Cornish. I first used Django in the fall of 2006 and quicky fell in love working with it. I then worked as an interaction designer at the same online division at the Lawrence Journal-World from 2007 to 2009.
 
-Today I work as a UX designer and feel privileged that I can share the lessons I learned about web development from the perspective of a designer. I graduated from the `University of Illinois at Urbana-Champaign <http://illinois.edu/>`_ with master degree in journalism.
+Today I work as a User Experience designer and feel privileged that I can share the lessons I learned about web development from the outside perspective of a designer. I graduated from the `University of Illinois at Urbana-Champaign <http://illinois.edu/>`_ with a `master of science degree in journalism <http://catalog.illinois.edu/graduate/graduate-majors/journalism/>`_.
 
 What is Django 101?
 -------------------
 
-This mission of Django 101 is to be a guide for beginners wanting to learn Django. Other text have similar missions for other technologies, but this text is different because I endeavor to meet the following standards:
+This mission of Django 101 is to be a guide for absolute beginners wanting to learn Django. Other text have similar missions for other technologies, but this text is different because I endeavor to meet the following standards:
 
 - Easy to read and understand
 
   All text and graphics are written and presented in a way that is neither too technical nor too childish. The material assumes some use of a Mac computer, but nothing more is required. Organization, grammar, consistency, and style are critical.
 
-- Reviews related technologies
+- Review related technologies
 
-  Too many instructional texts silo themselves, burdening the reader to figure out the technology landscape. There is great value in understanding what's related, what's necessary, what's optional, and what are the alternatives.
+  Too many instructional texts silo themselves, burdening the reader to figure out the technology landscape. There is great value in understanding what's required, what's optional, what's related, and what are the alternatives.
 
-- Links honorably
+- Link honorably
 
   While reviewing related technologies is useful, the text is not an all-encompassing guide to all of them. After an overview and explanation of basic concepts, hyperlinks should be used often to point the reader to a trustworthy source to learn more.
 

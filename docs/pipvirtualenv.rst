@@ -3,7 +3,7 @@
 pip & virtualenv
 ================
 
-If you were reading carefully in :ref:`installing_python` in the Homebrew lesson, you might have noticed the following lines in the success message after installing Python.
+If you were reading carefully in :ref:`installing_python` in the Homebrew lesson, you might have noticed the following lines in the success message.
 
 .. code-block:: bash
 
