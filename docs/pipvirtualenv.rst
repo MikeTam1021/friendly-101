@@ -130,6 +130,7 @@ It is worth noting that virtualenvwrapper automatically puts you inside a virtua
    (myenv)$ cdproject
 
    # Add a directory to the virtual environment's Python path
+   # Edits ~/.virtualenvs/myenv/lib/python2.7/site-packages/_virtualenv_path_extensions.pth
    (myenv)$ add2virtualenv <directory>
 
    # Exit a virtual environment

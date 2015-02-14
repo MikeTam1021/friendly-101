@@ -55,7 +55,7 @@ Django created a ``myproject`` directory that looks like the tree structure belo
         ├── urls.py
         ├── wsgi.py
 
-Every Django project comes with a ``manage.py`` file, which is the utility you will use to run commands. You could continue to use ``django-admin``, but it is a global utility, and would need further configuration to run commands specific to our project. For that reason, I recommend using ``manage.py``.
+Every Django project comes with a ``manage.py`` file, which is the `utility you will use <https://docs.djangoproject.com/en/1.7/ref/django-admin/>`_ to run commands. You could continue to use ``django-admin``, but it is a global utility, and would need further configuration to run commands specific to our project. For that reason, I recommend using ``manage.py``.
 
 Change into your project directory.
 
@@ -63,7 +63,10 @@ Change into your project directory.
 
    (myenv)$ cd myproject
 
-To get all those awesome "batteries included" that come with Django, you have to create the database tables for them.
+To get all those awesome "`batteries included <https://docs.djangoproject.com/en/1.7/ref/contrib/>`_" that come with Django, you have to `create the database tables <https://docs.djangoproject.com/en/1.7/topics/migrations/>`_ for them with |migrate|_.
+
+.. |migrate| replace:: ``migrate``
+.. _migrate: https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-migrate
 
 .. code-block:: bash
 
@@ -76,7 +79,10 @@ To get all those awesome "batteries included" that come with Django, you have to
      Applying admin.0001_initial... OK
      Applying sessions.0001_initial... OK
 
-After the database tables are created, run the local web server that comes with Django. The local web server simulates a production web server, which makes it great for clicking around on the website on your computer without deploying it live to the web.
+After you create the database tables, run the local web server that comes with Django with |runserver|_. The local web server simulates a production web server, which makes it great for clicking around on your simulated website without deploying it live to the web.
+
+.. |runserver| replace:: ``runserver``
+.. _runserver: https://docs.djangoproject.com/en/1.7/ref/django-admin/#django-admin-runserver
 
 .. code-block:: bash
 
@@ -97,7 +103,7 @@ Time for the moment of truth! Open a web browser and go to `http://127.0.0.1:800
 .. figure:: img/django-it_worked.png
    :alt: Django "It worked!" page
 
-You can go back to Terminal and quit the local server by pressing ``Ctrl+C``. You can exit your virtual environment now.
+You can go back to Terminal and quit the local server by pressing ``CONTROL-C``. You can exit your virtual environment.
 
 .. code-block:: bash
 

@@ -23,7 +23,7 @@ Homebrew is written in Ruby, but it can be used to compile almost any other soft
 Let's start brewing
 -------------------
 
-As a precaution, let's set the ownership of the ``/usr/local`` directory to yourself. Correct ownership ensures Homebrew will be able to install packages on your behalf without errors. You should already have ownership, but sometimes an erroneous permission can slip through.
+As a precaution, set the ownership of the ``/usr/local`` directory to yourself. Correct ownership ensures Homebrew will be able to install packages on your behalf without errors. You should already have ownership, but sometimes an erroneous permission can slip through.
 
 .. code-block:: bash
 
@@ -48,14 +48,16 @@ You should run ``brew doctor`` and any other instructions to make sure Homebrew 
 Installing Python
 -----------------
 
-Django is written in the `Python <https://www.python.org/>`_ programming language, and as such `requires Python <https://docs.djangoproject.com/en/1.7/intro/install/#install-python>`_ to run. OS X comes with a pre-installed version of Python. Let's find out where that installation currently lives.
+Django is written in the `Python <https://www.python.org/>`_ programming language, and as such `requires Python <https://docs.djangoproject.com/en/1.7/intro/install/#install-python>`_ to run. OS X comes with a pre-installed version of Python. Let's find out where that installation currently lives and which version it is.
 
 .. code-block:: bash
 
    $ which python
    /usr/bin/python
+   $ python --version
+   Python 2.7.5
 
-This version of Python is a little bit old by now, and it's the globally accessible version. To remedy these issues, let's use Homebrew to install a newer version of Python.
+This version of Python is the globally accessible version and a little bit old by now. To remedy these issues, let's use Homebrew to install a newer version of Python.
 
 .. code-block:: bash
 
