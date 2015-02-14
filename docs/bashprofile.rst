@@ -22,7 +22,7 @@ OS X doesn't include a Bash profile by default, but if you already have one, it 
 Creating your Bash profile
 --------------------------
 
-Open Terminal, copy and paste the following command, and press ``Return``.
+Open Terminal, copy and paste the following command, and press ``return``.
 
 .. code-block:: bash
 

@@ -19,14 +19,14 @@ If you were reading carefully in :ref:`installing_python` in the Homebrew lesson
 
    See: https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md
 
-pip is the community-favored package manager for Python software, and is the `successor <http://www.ianbicking.org/blog/2008/12/a-few-corrections-to-on-packaging.html>`_ to ``easy_install``. Homebrew `installs pip automatically <https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md#setuptools-pip-etc>`_ for you. Sweet!
+**pip** is the community-favored package manager for Python software, and is the `successor <http://www.ianbicking.org/blog/2008/12/a-few-corrections-to-on-packaging.html>`_ to `Easy Install <https://pythonhosted.org/setuptools/easy_install.html>`_, which suffered `several issues <http://www.b-list.org/weblog/2008/dec/14/packaging/>`_. Homebrew `installs pip automatically <https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md>`_ for you. Sweet!
 
 It might seem strange to use a package manager to have downloaded, well, *another* package manager, but each tool has specific capabilities that take advantage of the language's unique strengths. To make one all-encompassing package manager for all platforms and all languages would be unwieldly at best. Think of it like using one web browser to download another preferred web browser.
 
 pip installs...what?
 --------------------
 
-`pip <https://pip.pypa.io/>`_ is a `recursive acronym <https://en.wikipedia.org/wiki/Recursive_acronym>`_ for "pip installs packages" and is, in and of itself, a Python package. If Homebrew didn't install pip automatically, we would have installed pip with the predecessor package manager ``easy_install``. Some common commands you'll run with pip:
+`pip <https://pip.pypa.io/>`_ is a `recursive acronym <https://en.wikipedia.org/wiki/Recursive_acronym>`_ for "pip installs packages" and is, in and of itself, a Python package. If Homebrew didn't install pip automatically, we would have installed pip with Easy Install. Some common commands you'll run with pip:
 
 .. code-block:: bash
 
@@ -59,7 +59,9 @@ pip downloads packages from the `Python Package Index <https://pypi.python.org/p
 We are VR
 ---------
 
-`virtualenv <http://virtualenv.readthedocs.org/>`_ is a Python package that isolates your development environment, preventing packages from colliding and conflicting with one another. In the bad old days, one would install Python packages globally, cross their fingers, and hope everything would be `OK <https://www.youtube.com/watch?v=7ugn1ejC1Jc>`_.
+If you were to download packages solely with pip, pip would install them to ``/usr/local/lib/python2.7/site-packages``, which is local to you but *does not* separate packages from the possibly several Django (or just Pythonic in general) projects you could create. The result is an inability to cleanly share your code with others because your project's package dependencies are not cleanly separated. To solve this problem, the author of pip also created **virtualenv**.
+
+`virtualenv <http://virtualenv.readthedocs.org/>`_ is a Python package that isolates your development environment, preventing packages from colliding and conflicting with one another.
 
 Some developers don't use it, but I also recommend `virtualenvwrapper <http://virtualenvwrapper.readthedocs.org/>`_, which is a collection of additional helpers that makes working with virtualenv easier. It's another layer of abstraction, but I think the returns come back fairly quickly. virtualenv and virtualenvwrapper can be installed with pip in just one command.
 
