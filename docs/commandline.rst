@@ -17,7 +17,7 @@ But, no, you won't break your computer anymore than you would clicking around wi
 You can be bashful now
 ----------------------
 
-The command-line interface we'll work with is **Bash**. `Bash <https://en.wikipedia.org/wiki/Bash_(Unix_shell)>`_ is a shell, which is a category of program that loads command-line interfaces, much like Chrome is a web browser. The shell's name comes from its function as a "wrapper" around the kernel, the core program that communicates with the hardware. Bash is the most popular shell today and the default shell inside the `Terminal <https://en.wikipedia.org/wiki/Terminal_(OS_X)>`_ application on OS X. It's worthy to note that shells other than Bash can be loaded inside of Terminal--a feat that web browsers can't and will likely never do.
+The command-line interface we'll work with is **Bash**. `Bash <http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f>`_ is a shell, which is a category of program that loads command-line interfaces, much like Chrome is a web browser. The shell's name comes from its function as a "wrapper" around the kernel, the core program that communicates with the hardware. Bash is the most popular shell today and the default shell inside the `Terminal <https://en.wikipedia.org/wiki/Terminal_(OS_X)>`_ application on OS X. It's worthy to note that shells other than Bash can be loaded inside of Terminal--a feat that web browsers can't and will likely never do.
 
 Open a Finder window, navigate to the ``Applications`` folder, then the ``Utilities`` folder, and open the ``Terminal`` application. It might look something like this, which shows a whole lot of white.
 
@@ -151,4 +151,4 @@ Let's run a powerful command, a helpful trick that will connect Terminal to Subl
 
 This command will create a `symbolic link <https://en.wikipedia.org/wiki/Symbolic_link>`_, which is the equivalent of an alias or shortcut in the Finder. From now on, when we type ``subl`` and the name of a directory or file in Terminal, that same directory or file will pop up in Sublime Text, ready for us to edit!
 
-Just like text editors, people have varying opinions on shells. Bash is most popular, but some developers claim `Z shell <http://www.zsh.org/>`_ can be more productive. Terminal comes with OS X, but some swear by `iTerm2 <http://iterm2.com/>`_. Get comfortable with what's most accessible and when you feel confident, explore what else is out there.
+Just like text editors, people have varying opinions on shells. `Bash <https://en.wikipedia.org/wiki/Bash_(Unix_shell)>`_ is most popular, but some developers claim `Z shell <http://www.zsh.org/>`_ can be more productive. Terminal comes with OS X, but some swear by `iTerm2 <http://iterm2.com/>`_. Get comfortable with what's most accessible and when you feel confident, explore what else is out there.
