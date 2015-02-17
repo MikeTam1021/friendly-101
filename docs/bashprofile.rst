@@ -30,7 +30,7 @@ Open Terminal, copy and paste the following command, and press ``return``.
 
 If you received an error, review :ref:`terminal_meet_sublime` of the :ref:`Command line` lesson.
 
-The tilda (``~``) tells Bash to start traversing the file system from your home directory. In my personal case, an equivalent command would have been ``subl /Users/Rich/.bash_profile``, which means ``~`` is the equivalent of ``/Users/Rich``. Using ``~`` is a shortcut that makes it generic and usable for everybody to understand and use.
+The `tilda <http://unix.stackexchange.com/questions/34196/why-was-chosen-to-represent-the-home-directory>`_ (``~``) tells Bash to start traversing the file system from your home directory. In my personal case, an equivalent command would have been ``subl /Users/Rich/.bash_profile``, which means ``~`` is the equivalent of ``/Users/Rich``. Using ``~`` is a shortcut that makes it generic and usable for everybody to understand and use.
 
 Your Bash profile will pop up in a Sublime Text window.
 
