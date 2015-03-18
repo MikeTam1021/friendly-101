@@ -110,3 +110,10 @@ DATABASES['default'] = dj_database_url.config(
 # Enable Connection Pooling for PostgreSQL (if desired)
 if DATABASES['default']['ENGINE'] == 'django.db.backends.postgresql_psycopg2':
     DATABASES['default']['ENGINE'] = 'django_postgrespool'
+
+# Static asset configuration
+STATIC_ROOT = 'staticfiles'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
