@@ -1,12 +1,12 @@
-.. Django 101 documentation master file, created by
+.. Friendly 101 documentation master file, created by
    sphinx-quickstart on Fri Jan 30 19:19:15 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Django 101!
-======================
+Welcome to Friendly 101!
+========================
 
-Django 101 is a tutorial and hands-on workshop by the `Friendly Django <https://friendlydjango.org/>`_ Meetup group. It acts as an introduction to the `Django <https://www.djangoproject.com/>`_ web framework for beginners.
+Friendly 101 is a tutorial and hands-on workshop by the `Friendly Django <https://friendlydjango.org/>`_ Meetup group. It acts as an introduction to the `Django <https://www.djangoproject.com/>`_ web framework for beginners.
 
 This documentation is saved in a `GitHub repository <https://github.com/friendlydjango/friendly-django-101>`_. If you see any errors in this text, please feel free to `file an issue <https://github.com/friendlydjango/friendly-django-101/issues>`_.
 

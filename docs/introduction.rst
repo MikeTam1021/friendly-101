@@ -37,10 +37,10 @@ Hello, my name is Rich Cornish. I first used Django in the fall of 2006 and quic
 
 Today I work as a User Experience designer and feel privileged that I can share the lessons I learned about web development from the outside perspective of a designer. I graduated from the `University of Illinois at Urbana-Champaign <http://illinois.edu/>`_ with a `master of science degree in journalism <http://catalog.illinois.edu/graduate/graduate-majors/journalism/>`_.
 
-What is Django 101?
+What is Friendly 101?
 -------------------
 
-This mission of Django 101 is to be a guide for absolute beginners wanting to learn Django. Other text have similar missions for other technologies, but this text is different because I endeavor to meet the following standards:
+This mission of Friendly 101 is to be a guide for absolute beginners wanting to learn Django. Other text have similar missions for other technologies, but this text is different because I endeavor to meet the following standards:
 
 - Easy to read and understand
 
