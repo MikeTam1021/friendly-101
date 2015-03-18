@@ -9,10 +9,11 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
 import os
-import dj_database_url
 
+################################
+### HEROKU-SPECIFIC SETTINGS ###
+################################
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 SETTINGS_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.join(SETTINGS_DIR, os.pardir)
 REPOSITORY_DIR = os.path.join(BASE_DIR, os.pardir)
@@ -87,6 +88,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
 
 
 ################################
@@ -114,10 +119,6 @@ if DATABASES['default']['ENGINE'] == 'django.db.backends.postgresql_psycopg2':
 
 # Static asset configuration
 STATIC_ROOT = 'staticfiles'
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
 
 # Simplified static file serving
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
