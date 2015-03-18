@@ -13,8 +13,9 @@ import dj_database_url
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+SETTINGS_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.join(SETTINGS_DIR, os.pardir)
+REPOSITORY_DIR = os.path.join(BASE_DIR, os.pardir)
 
 
 # Website settings
@@ -117,3 +118,6 @@ STATIC_ROOT = 'staticfiles'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+# Simplified static file serving
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
