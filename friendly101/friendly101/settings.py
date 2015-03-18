@@ -19,7 +19,7 @@ BASE_DIR = os.path.join(SETTINGS_DIR, os.pardir)
 REPOSITORY_DIR = os.path.join(BASE_DIR, os.pardir)
 
 
-# Website settings
+# Website
 
 SECRET_KEY = os.environ.get('FRIENDLY101_SECRET_KEY')
 
