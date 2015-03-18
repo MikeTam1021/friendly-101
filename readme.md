@@ -1,8 +1,8 @@
-# Django 101
+# Friendly 101
 
-Django 101 is a tutorial and hands-on workshop by the [Friendly Django](https://friendlydjango.org/) Meetup group. It acts as an introduction to the [Django](https://www.djangoproject.com/) web framework for beginners.
+Friendly 101 is a tutorial and hands-on workshop by the [Friendly Django](https://friendlydjango.org/) Meetup group. It acts as an introduction to the [Django](https://www.djangoproject.com/) web framework for beginners.
 
-The code was written in [reStructuredText](http://docutils.sourceforge.net/rst.html), built with [Sphinx](http://sphinx-doc.org/), and saved to [Read the Docs](https://readthedocs.org/). [Wikipedia's article](https://en.wikipedia.org/wiki/ReStructuredText) on reStructuredText will make you more tolerable of the language.
+The code was written in [reStructuredText](http://docutils.sourceforge.net/rst.html), built with [Sphinx](http://sphinx-doc.org/), and saved to [Read the Docs](https://readthedocs.org/).
 
 You will likely simply want to [read the tutorial](https://friendly-django-101.readthedocs.org/), but keep reading if you're curious about generating it for yourself.
 
