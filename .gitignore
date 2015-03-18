@@ -1,7 +1,14 @@
 # Apple
 *.DS_Store
 
-# Sphinx
+# SQLite database
+db.sqlite3
+
+# Heroku
+venv
+staticfiles
+
+# Sphinx documentation
 docs/_build
 docs/_static
 docs/_templates
