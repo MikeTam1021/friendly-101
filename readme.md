@@ -36,7 +36,9 @@ sphinx-autobuild docs docs/_build/html
 
 [https://friendly-101.herokuapp.com](https://friendly-101.herokuapp.com/)
 
-The sample application from the tutorial is included in the repository. Although you should probably follow the tutorial for full effect, to run the project in development:
+The sample application from the tutorial is included in the repository. You should probably follow the tutorial for full effect, but the project can be run in development.
+
+Prerequisites: [SQLite](https://sqlite.org/), [Python](https://www.python.org/), [pip](https://pip.pypa.io/), [virtualenv](http://virtualenv.readthedocs.org/), [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/), [Git](http://git-scm.com/).
 
 ```
 mkdir -p ~/Sites/ && cd ~/Sites/
