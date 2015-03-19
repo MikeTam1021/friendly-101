@@ -2,25 +2,21 @@
 
 Friendly 101 is a tutorial and hands-on workshop by the [Friendly Django](https://friendlydjango.org/) Meetup group. It acts as an introduction to the [Django](https://www.djangoproject.com/) web framework for beginners.
 
-The code was written in [reStructuredText](http://docutils.sourceforge.net/rst.html), built with [Sphinx](http://sphinx-doc.org/), and saved to [Read the Docs](https://readthedocs.org/).
+## Documentation
 
-You will likely simply want to [read the tutorial](https://friendly-django-101.readthedocs.org/), but keep reading if you're curious about generating it for yourself.
+[https://friendly-101.readthedocs.org/](https://friendly-101.readthedocs.org)
 
-## Installation
+You will likely simply want to [read the tutorial](https://friendly-101.readthedocs.org/), but keep reading if you're curious about generating it for yourself.
 
-Prerequisites:
+The documentation was written in [reStructuredText](http://docutils.sourceforge.net/rst.html), built with [Sphinx](http://sphinx-doc.org/), and saved to [Read the Docs](https://readthedocs.org/). Read the Docs will [create a build of the documentation](https://read-the-docs.readthedocs.org/en/latest/getting_started.html#import-your-docs) based on an OAuth authorization to your GitHub account and the GitHub project repository URL.
 
-- [Python](https://www.python.org/)
-- [pip](https://pip.pypa.io/)
-- [virtualenv](http://virtualenv.readthedocs.org/)
-- [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/)
-- [Git](http://git-scm.com/)
+Prerequisites: [Python](https://www.python.org/), [pip](https://pip.pypa.io/), [virtualenv](http://virtualenv.readthedocs.org/), [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/), [Git](http://git-scm.com/).
 
 ```
 mkdir -p ~/Sites/ && cd ~/Sites/
-git clone git@github.com:friendlydjango/friendly-django-101.git
-mkvirtualenv friendly-django-101
-cd friendly-django-101
+git clone git@github.com:friendlydjango/friendly-101.git
+mkvirtualenv friendly-101
+cd friendly-101
 pip install -r requirements.txt
 cd docs/
 make html
@@ -36,6 +32,23 @@ Or run `sphinx-autobuild` to watch for changes to your docs and automatically re
 sphinx-autobuild docs docs/_build/html
 ```
 
-## Deploy
+## Deployed application
 
-The original [reStructuredText docs](http://read-the-docs.readthedocs.org/en/latest/getting_started.html#in-rst) are automatically sent to [Read the Docs](http://read-the-docs.readthedocs.org/) via a [Webhook](http://read-the-docs.readthedocs.org/en/latest/webhooks.html) whenever a `git push` happens. Read the Docs will impressively [create the static build](http://read-the-docs.readthedocs.org/en/latest/builds.html) on its own servers after [receiving only](http://read-the-docs.readthedocs.org/en/latest/getting_started.html#import-your-docs) OAuth authorization to the GitHub account and a specific GitHub project repository URL.
+[https://friendly-101.herokuapp.com/](https://friendly-101.herokuapp.com)
+
+The sample application from the tutorial is included in the repository. Although you should probably follow the tutorial for full effect, to run the project in development:
+
+```
+mkdir -p ~/Sites/ && cd ~/Sites/
+git clone git@github.com:friendlydjango/friendly-101.git
+mkvirtualenv friendly-101
+cd friendly-101
+pip install -r requirements.txt
+cd friendly101
+python manage.py migrate
+python manage.py runserver
+```
+
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000). Kill with `Ctrl+C`.
+
+The sample application is also [deployed to Heroku](https://friendly-101.herokuapp.com/). Although care was taken to mirror the project resulting from the tutorial as closely as possible, the nature of Heroku necessitated changes. Where possible, these are commented in the project's source code.
