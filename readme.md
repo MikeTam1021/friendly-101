@@ -4,7 +4,7 @@ Friendly 101 is a tutorial and hands-on workshop by the [Friendly Django](https:
 
 ## Documentation
 
-[https://friendly-101.readthedocs.org/](https://friendly-101.readthedocs.org)
+[https://friendly-101.readthedocs.org](https://friendly-101.readthedocs.org/)
 
 You will likely simply want to [read the tutorial](https://friendly-101.readthedocs.org/), but keep reading if you're curious about generating it for yourself.
 
@@ -34,7 +34,7 @@ sphinx-autobuild docs docs/_build/html
 
 ## Deployed application
 
-[https://friendly-101.herokuapp.com/](https://friendly-101.herokuapp.com)
+[https://friendly-101.herokuapp.com](https://friendly-101.herokuapp.com/)
 
 The sample application from the tutorial is included in the repository. Although you should probably follow the tutorial for full effect, to run the project in development:
 
