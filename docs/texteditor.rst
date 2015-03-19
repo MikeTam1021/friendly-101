@@ -19,7 +19,7 @@ As a beginner developer, you should use a text editor that is fairly easy to und
 
 `Sublime Text <http://www.sublimetext.com/>`_ is a popular, open-source text editor that beginners and professionals alike use. Hundreds of `add-on packages <https://packagecontrol.io/>`_, `themes <https://packagecontrol.io/browse/labels/theme>`_, and `tutorials <http://code.tutsplus.com/categories/sublime-text>`_ exist for it. It's also free with minimal intrusion. Download Sublime Text from its website by clicking on the ``Download for OS X`` button.
 
-.. figure:: img/text_edtior-website.png
+.. figure:: _static/text_edtior-website.png
    :target: http://www.sublimetext.com/
    :alt: Sublime Text website
 
@@ -28,29 +28,29 @@ Installing Sublime Text
 
 Find the DMG you downloaded, which is probably in your ``Downloads`` folder and was called ``Sublime Text 2.0.2.dmg`` at the time of this writing. 
 
-.. figure:: img/text_editor-downloads.png
+.. figure:: _static/text_editor-downloads.png
    :alt: Downloads folder
 
 DMG stands for `Disk Image <https://en.wikipedia.org/wiki/Apple_Disk_Image>`_, and is the file format for OS X applications. Open the DMG by double clicking on it. The DMG will mount the Finder and a new window will appear. Drag the ``Sublime Text 2`` icon into the ``Applications`` shortcut folder.
 
-.. figure:: img/text_editor-mount.png
+.. figure:: _static/text_editor-mount.png
    :alt: Sublime Text mount window
 
 You can now close the windows, eject the mount by dragging it from the Desktop to the Trash, and trash the DMG.
 
 Open a new Finder window and navigate to the ``Applications`` folder. Find the Sublime Text 2 app icon and open it.
 
-.. figure:: img/text_editor-applications.png
+.. figure:: _static/text_editor-applications.png
    :alt: Applications window
 
 Congratulations! You are now using a world-class text editor.
 
-.. figure:: img/text_editor-sublime_text.png
+.. figure:: _static/text_editor-sublime_text.png
    :alt: Sublime Text window
 
 Sublime Text is free to use, but it pops up an occasional window reminding you to purchase it. You can click ``Cancel`` or press ``Esc`` when it appears, but feel free to eventually support the developers who work hard to make software free to use.
 
-.. figure:: img/text_editor-purchase.png
+.. figure:: _static/text_editor-purchase.png
    :alt: Sublime Text purchase
 
 I recommend dragging the Sublime Text 2 icon from the ``Applications`` folder `into your Dock <http://support.apple.com/kb/PH18815>`_ for easy access in the future.

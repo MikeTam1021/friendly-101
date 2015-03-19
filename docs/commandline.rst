@@ -21,14 +21,14 @@ The command-line interface we'll work with is **Bash**. `Bash <http://www.gnu.or
 
 Open a Finder window, navigate to the ``Applications`` folder, then the ``Utilities`` folder, and open the ``Terminal`` application. It might look something like this, which shows a whole lot of white.
 
-.. figure:: img/command_line-terminal.png
+.. figure:: _static/command_line-terminal.png
    :alt: Terminal
 
 The first line tells me when I last started a Bash session (``Last login: Mon Feb 5 09:58:08``) and on which `Teletypes <https://en.wikipedia.org/wiki/Teleprinter>`_ (``ttys000``), although today the equivalent is simply a tab in Terminal, much like a tab in a web browser. The second line tells me the name of my computer on the network (``Rich``), my current directory (``~``, which is my home directory), the name of my user account (``rich``), and the symbol indicating a prompt for user input (``$``).
 
 Feel free to trick it out in the preferences. I like to make mine look like `The Matrix <http://www.imdb.com/media/rm541630976/tt0133093>`_.
 
-.. figure:: img/command_line-terminal_matrix.png
+.. figure:: _static/command_line-terminal_matrix.png
    :alt: Terminal from the Matrix
 
 I also recommend dragging the Terminal icon from the Applications folder `into your Dock <http://support.apple.com/kb/PH18815>`_ for easy access in the future.

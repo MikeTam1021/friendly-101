@@ -7,7 +7,7 @@ You've probably noticed that when you turn on your computer that some applicatio
 
 You can see some of these in the "Login Items" tab of the "Users & Groups" section of your System Preferences.
 
-.. figure:: img/bash_profile-login_items.png
+.. figure:: _static/bash_profile-login_items.png
    :alt: OS X Login items
 
 Other applications have their own login items, which run only when that specific application is opened. We're going to use Bash's login items feature to make web development easier.
@@ -73,7 +73,7 @@ Next we assign the value ``/usr/local/bin:$PATH`` to ``PATH`` and export it at t
 
    The difference between ``$PATH`` and ``PATH`` is subtle but worth pointing out. When you assign a value to a variable, then the variable should be called without ``$``. If you want to *evaluate* the variable to get its value for use in Bash, prepend ``$`` to the variable name.
 
-.. figure:: img/bash_profile-code.png
+.. figure:: _static/bash_profile-code.png
    :alt: OS X Login items
 
 Save and close the file.

@@ -100,7 +100,7 @@ The moment of truth
 
 Time for the moment of truth! Open a web browser and go to `http://127.0.0.1:8000 <http://127.0.0.1:8000>`_. At long last you should see the "It worked!" page. Great job! Feel free to celebrate in the way befitting to you: back pats, high fives, fist bumps, etc.
 
-.. figure:: img/django-it_worked.png
+.. figure:: _static/django-it_worked.png
    :alt: Django "It worked!" page
 
 You can go back to Terminal and quit the local server by pressing ``CONTROL-C``. You can exit your virtual environment.
