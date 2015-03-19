@@ -70,7 +70,7 @@ To get all those awesome "`batteries included <https://docs.djangoproject.com/en
 
 .. code-block:: bash
 
-   $ python manage.py migrate
+   (myenv)$ python manage.py migrate
    Operations to perform:
      Apply all migrations: admin, contenttypes, auth, sessions
    Running migrations:
@@ -86,7 +86,7 @@ After you create the database tables, run the local web server that comes with D
 
 .. code-block:: bash
 
-   $ python manage.py runserver
+   (myenv)$ python manage.py runserver
    Performing system checks...
 
    System check identified no issues (0 silenced).
