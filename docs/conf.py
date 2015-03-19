@@ -45,6 +45,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Friendly 101'
 copyright = u'2015, Friendly Django'
+author = u'Friendly Django'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -92,6 +93,9 @@ pygments_style = 'sphinx'
 
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
+
+# If true, `todo` and `todoList` produce output, else they produce nothing.
+todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
@@ -180,7 +184,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Django101doc'
+htmlhelp_basename = 'Friendly101doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -200,7 +204,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Django101.tex', u'Friendly 101 Documentation',
+  ('index', 'Friendly101.tex', u'Friendly 101 Documentation',
    u'Friendly Django', 'manual'),
 ]
 
@@ -230,7 +234,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django101', u'Friendly 101 Documentation',
+    ('index', 'friendly101', u'Friendly 101 Documentation',
      [u'Friendly Django'], 1)
 ]
 
@@ -244,8 +248,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Django101', u'Friendly 101 Documentation',
-   u'Friendly Django', 'Django101', 'One line description of project.',
+  (master_doc, 'Friendly101', u'Friendly 101 Documentation',
+   author, 'Friendly101', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -265,10 +269,10 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Friendly 101'
-epub_author = u'Friendly Django'
-epub_publisher = u'Friendly Django'
-epub_copyright = u'2015, Friendly Django'
+epub_title = project
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Friendly 101'
