@@ -1,7 +1,7 @@
 .. _`Bash profile`:
 
 Bash profile
-============
+************
 
 You've probably noticed that when you turn on your computer that some applications start up with it. Some of them are required by the operating system and some you might have installed yourself. Some can make your computer's fan sound like an airplane taking off.
 
@@ -13,14 +13,14 @@ You can see some of these in the "Login Items" tab of the "Users & Groups" secti
 Other applications have their own login items, which run only when that specific application is opened. We're going to use Bash's login items feature to make web development easier.
 
 Why do I need a Bash profile?
------------------------------
+=============================
 
 The **Bash profile** is a file on your computer that Bash runs every time a new Bash session is created. This is useful because we need to run certain code every time before starting to work.
 
 OS X doesn't include a Bash profile by default, but if you already have one, it lives in your home directory with the name ``.bash_profile``. And if you did have one, you probably never saw it because its name starts with a period. The Finder hides folders and files starting with a period to protect casual users from harming the operating system--but because you're a developer now, we're going to create a Bash profile now!
 
 Creating your Bash profile
---------------------------
+==========================
 
 Open Terminal, copy and paste the following command, and press ``return``.
 
@@ -37,7 +37,7 @@ Your Bash profile will pop up in a Sublime Text window.
 .. _understanding_your_path:
 
 Understanding your PATH
------------------------
+=======================
 
 The first edit to your Bash profile is to correct your `PATH <https://en.wikipedia.org/wiki/PATH_%28variable%29>`_. ``PATH`` is an **environment variable**, which simply means that it represents some small bit of data while you use Terminal. Specifically, ``PATH`` contains a list of file system paths where the operating system can find programs to run.
 
@@ -54,7 +54,7 @@ You can see that ``/usr/local/bin`` is the first path, and ``/usr/bin`` is the s
 Likewise, storing programs in ``/usr/bin`` allows programs to be globally accessible by other users. Storing programs globally can sometimes be desirable, but in general it's discouraged and likely to cause confusion.
 
 Correcting your PATH
---------------------
+====================
 
 In versions of OS X prior to Yosemite, Apple mistakenly switched the order of the paths, placing ``/usr/bin`` ahead of ``/usr/local/bin``, causing much disruption and angst. Apple has since corrected the issue, but it's still worth changing because doing so won't harm the computer and will prevent problems from occuring again.
 
@@ -79,7 +79,7 @@ Next we assign the value ``/usr/local/bin:$PATH`` to ``PATH`` and export it at t
 Save and close the file.
 
 Sourcing your Bash profile
---------------------------
+==========================
 
 We edited our Bash profile, but it is critical to remember the code in Bash profile runs only when a *new Bash session is created*, which is called **sourcing**. Therefore, our changes will take effect when you quit Terminal and open it again to make sure that ``PATH`` is in fact exported. When Terminal is open again, you can check the value of ``PATH`` by running the ``echo`` command:
 

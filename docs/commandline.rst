@@ -1,12 +1,12 @@
 .. _`Command line`:
 
 Command line
-============
+************
 
 After a good text editor, the next tool a developer needs to become familiar with is the `command-line interface <https://en.wikipedia.org/wiki/Command-line_interface>`_.
 
 You won't break your computer
------------------------------
+=============================
 
 A **command-line interface** is a program that allows developers to interact with a computer by running commands that are typed. The functionality between a command-line interface and the more familiar graphical user interface, known in as the Finder, are similar if not identical.
 
@@ -15,7 +15,7 @@ Beginner developers often have a fear of the command line, thinking they will "b
 But, no, you won't break your computer anymore than you would clicking around with a mouse.
 
 You can be bashful now
-----------------------
+======================
 
 The command-line interface we'll work with is **Bash**. `Bash <http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f>`_ is a shell, which is a category of program that loads command-line interfaces, much like Chrome is a web browser. The shell's name comes from its function as a "wrapper" around the kernel, the core program that communicates with the hardware. Bash is the most popular shell today and the default shell inside the `Terminal <https://en.wikipedia.org/wiki/Terminal_(OS_X)>`_ application on OS X. It's worthy to note that shells other than Bash can be loaded inside of Terminal--a feat that web browsers can't and will likely never do.
 
@@ -36,7 +36,7 @@ I also recommend dragging the Terminal icon from the Applications folder `into y
 .. _common_bash_commands:
 
 Common Bash commands
---------------------
+====================
 
 I provide all commands you should run when you need them, but it helps to remember the ones most commonly used.
 
@@ -119,7 +119,7 @@ Additional commands include:
 If you feel like you need additional guidance, `The Command Line Crash Course <http://cli.learncodethehardway.org/book/>`_ by Zed Shaw is excellent, and `SS64 <http://ss64.com/bash/>`_ lists all Bash commands.
 
 But who are any of us, really?
-------------------------------
+==============================
 
 Let's run our first command. Copy and paste the following and press ``return``. Take care not to copy and paste the ``$`` and adjacent space.
 
@@ -141,7 +141,7 @@ You should've gotten a response with the name of your user account.
 .. _terminal_meet_sublime:
 
 Terminal, meet Sublime
-----------------------
+======================
 
 Let's run a powerful command, a helpful trick that will connect Terminal to Sublime Text. Note that you might need to enter your OS X password, and again take care not to copy and paste the ``$`` and adjacent space.
 

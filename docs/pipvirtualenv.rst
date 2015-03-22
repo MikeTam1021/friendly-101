@@ -1,7 +1,7 @@
 .. _`pip & virtualenv`:
 
 pip & virtualenv
-================
+****************
 
 If you were reading carefully in :ref:`installing_python` in the Homebrew lesson, you might have noticed the following lines in the success message.
 
@@ -24,7 +24,7 @@ If you were reading carefully in :ref:`installing_python` in the Homebrew lesson
 It might seem strange to use a package manager to have downloaded, well, *another* package manager, but each tool has specific capabilities that take advantage of the language's unique strengths. To make one all-encompassing package manager for all platforms and all languages would be unwieldly at best. Think of it like using one web browser to download another preferred web browser.
 
 pip installs...what?
---------------------
+====================
 
 `pip <https://pip.pypa.io/>`_ is a `recursive acronym <https://en.wikipedia.org/wiki/Recursive_acronym>`_ for "pip installs packages" and is, in and of itself, a Python package. If Homebrew didn't install pip automatically, we would have installed pip with Easy Install. Some common commands you'll run with pip:
 
@@ -57,7 +57,7 @@ pip installs...what?
 pip downloads packages from the `Python Package Index <https://pypi.python.org/pypi>`_, or PyPI, and installs them to the ``site-packages`` directory of the current Python installation.
 
 We are VR
----------
+=========
 
 If you were to download packages solely with pip, pip would install them to ``/usr/local/lib/python2.7/site-packages``, which is local to you but *does not* separate packages from the possibly several Django (or just Pythonic in general) projects you could create. The result is an inability to cleanly share your code with others because your project's package dependencies are not cleanly separated. To solve this problem, the author of pip also created **virtualenv**.
 
@@ -88,7 +88,7 @@ The first line appends the hidden directory ``.virtualenvs`` to the path of the 
 It might make your head spin to think that a package's only job is to isolate other packages, but don't think about it too hard. You should use pip to install virtualenv and virtualenvwrapper globally, but *that's it*. All other packages should be installed with pip but inside a virtual environment.
 
 Making an environment
----------------------
+=====================
 
 Let's make a new virtual environment.
 

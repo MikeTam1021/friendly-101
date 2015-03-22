@@ -1,12 +1,12 @@
 .. _`Homebrew`:
 
 Homebrew
-========
+********
 
 Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `Some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to drive one to drink until **Homebrew** arrived.
 
 What's Hombrew?
----------------
+===============
 
 Compiling software involves several implied steps: download the zipped source code file, unzip the file, compile the source code, move the binaries to correct locations, arrange the symbolic links, delete the downloaded file, perform any other cleanup or special tasks, determine any dependencies, and do the whole process over again if dependencies do exist. Don't forget about updating and uninstalling.
 
@@ -21,7 +21,7 @@ Homebrew is written in Ruby, but it can be used to compile almost any other soft
    Homebrew is a package manager for larger "general purpose" packages, such as Python, SQLite, MySQL, PostgreSQL, or Git. Do not install packages whose languages have package managers of their own. For example, packages written in Python should not be installed with Homebrew but with pip, which will be explained later.
 
 Let's start brewing
--------------------
+===================
 
 As a precaution, set the ownership of the ``/usr/local`` directory to yourself. Correct ownership ensures Homebrew will be able to install packages on your behalf without errors. You should already have ownership, but sometimes an erroneous permission can slip through.
 
@@ -46,7 +46,7 @@ You should run ``brew doctor`` and any other instructions to make sure Homebrew 
 .. _installing_python:
 
 Installing Python
------------------
+=================
 
 Django is written in the `Python <https://www.python.org/>`_ programming language, and as such `requires Python <https://docs.djangoproject.com/en/1.7/intro/install/#install-python>`_ to run. OS X comes with a pre-installed version of Python. Let's find out where that installation currently lives and which version it is.
 
@@ -129,7 +129,7 @@ Excellent! Because we set precedence in our Bash profile to look for programs in
    Python 3 is the next major version of the Python programming language. It is a backward-incompatible upgrade, however migration guides for `Python <https://docs.python.org/3/howto/pyporting.html>`_ and `Django <https://docs.djangoproject.com/en/1.7/topics/python3/>`_ exist. Updating code to Python 3 compatibility is a good idea in the long run, but Python 2 is excepted to be supported `until 2020 <https://www.python.org/dev/peps/pep-0373/>`_ at the time of this writing.
 
 Installing SQLite
------------------
+=================
 
 Django also requires a `SQL database <https://docs.djangoproject.com/en/1.7/intro/install/#set-up-a-database>`_. `SQL <https://en.wikipedia.org/wiki/SQL>`_, which stands for Structured Query Language, is a category of programming languages that interact with `relational databases <http://en.wikipedia.org/wiki/Relational_database>`_.
 
@@ -179,7 +179,7 @@ The success message should look something like:
    Do not use SQLite in a production environment. SQLite supports a low number of concurrent database connections, which makes it a good candidate for development local to your computer, but is not recommended for use on the web.
 
 Troubleshooting Homebrew
-------------------------
+========================
 
 Homebrew has a `troubleshooting checklist <https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Troubleshooting.md>`_, but in general the following commands are the most helpful in keeping your brews up to date and trouble free.
 

@@ -1,7 +1,7 @@
 .. _`Django`:
 
 Django
-======
+******
 
 You have your text editor, compiler, Bash profile, package manager, programming language, and database. It's time to install Django!
 
@@ -9,7 +9,7 @@ Let's find a suitable place for your Django project code. I prefer to save my we
 
 .. code-block:: bash
 
-   $ mkdir -p ~/Sites/ && cd ~/Sites/
+   $ mkdir --path ~/Sites/ && cd ~/Sites/
 
 If you haven't already made and entered your virtual environment, make one now.
 
@@ -24,7 +24,7 @@ If you haven't already made and entered your virtual environment, make one now.
 If you have an existing environment and exited it, enter it with ``workon myenv``.
 
 Installing Django
------------------
+=================
 
 We're all ready to go! Let's install Django with pip!
 
@@ -96,7 +96,7 @@ After you create the database tables, run the local web server that comes with D
    Quit the server with CONTROL-C.
 
 The moment of truth
--------------------
+===================
 
 Time for the moment of truth! Open a web browser and go to `http://127.0.0.1:8000 <http://127.0.0.1:8000>`_. At long last you should see the "It worked!" page. Great job! Feel free to celebrate in the way befitting to you: back pats, high fives, fist bumps, etc.
 
@@ -110,7 +110,7 @@ You can go back to Terminal and quit the local server by pressing ``CONTROL-C``.
    ^C(myenv)$ deactivate
 
 Clean in house
---------------
+==============
 
 I highly recommed setting a default project directory for your virtual environment. The default project directory is the directory you automatically change to when you start working on your project. You can start working immediately without thinking about which directories to traverse.
 
@@ -140,5 +140,12 @@ Now that your project is set up, you can deactivate your virtual environment and
    logout
 
    [Process completed]
+
+If you'd like to remove the virtual environment and your Django project:
+
+.. code-block:: bash
+
+   $ rmvirtualenv myenv
+   $ rm -rf ~/Sites/myproject/
 
 Congratulations on your first steps to becoming a Django web developer!

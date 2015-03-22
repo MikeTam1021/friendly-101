@@ -1,7 +1,7 @@
 .. _`Introduction`:
 
 Introduction
-============
+************
 
 If you like photos on `Instagram <http://instagram.com/>`_, you're using Django.
 
@@ -14,7 +14,7 @@ With Django, we can `read the news <http://www.theguardian.co.uk/>`_, `write com
 Django has allowed for the creation of fun, interesting, and useful websites and web applications since its developers released it 10 years ago. So, what is it?
 
 What is Django?
----------------
+===============
 
 According to `its website <https://www.djangoproject.com/>`_:
 
@@ -31,14 +31,14 @@ Django adpots an `MVC <https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93
 There's a lot more in Django's `FAQ <https://docs.djangoproject.com/en/dev/faq/general/>`_ and in the `design philosophies <https://docs.djangoproject.com/en/dev/misc/design-philosophies/>`_. Other great historical references are Holovaty's `Snakes and Rubies <https://www.youtube.com/watch?v=f3Y-QoEkPtw>`_ presentation, and Willison's `Django history answer <http://www.quora.com/What-is-the-history-of-the-Django-web-framework>`_ on Quora. 
 
 Who are you again?
-------------------
+==================
 
 Hello, my name is Rich Cornish. I first used Django in the fall of 2006 and quicky fell in love working with it. I then worked as an interaction designer at the same online division at the Lawrence Journal-World from 2007 to 2009.
 
 Today I work as a User Experience designer and feel privileged that I can share the lessons I learned about web development from the outside perspective of a designer. I graduated from the `University of Illinois at Urbana-Champaign <http://illinois.edu/>`_ with a `master of science degree in journalism <http://catalog.illinois.edu/graduate/graduate-majors/journalism/>`_.
 
 What is Friendly 101?
--------------------
+=====================
 
 This mission of Friendly 101 is to be a guide for absolute beginners wanting to learn Django. Other text have similar missions for other technologies, but this text is different because I endeavor to meet the following standards:
 

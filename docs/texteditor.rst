@@ -1,19 +1,19 @@
 .. _`Text editor`:
 
 Text editor
-===========
+***********
 
 The first step in a web developer's journey is to use a good text editor.
 
 What is a text editor?
-----------------------
+======================
 
 A **text editor** is an application that allows you to write code, which is simply text without formatting options like bold or alignment. `Microsoft Word <https://en.wikipedia.org/wiki/Microsoft_Word>`_ and `TextEdit <https://en.wikipedia.org/wiki/TextEdit>`_ are word processors, which are similar to text editors, but often come with features that make them inappropriate for writing code.
 
 Like all good things in life, people have a wide range of opinions on which text editor is "the best." And like all good things in life, finding "the best" text editor is unimportant; what's important is finding the best text editor *for you*.
 
 Sublime Text is your new friend
--------------------------------
+===============================
 
 As a beginner developer, you should use a text editor that is fairly easy to understand and use, is in active development, offers add-ons when you become advanced, and hopefully doesn't cost much. For those reasons, I recommend **Sublime Text**.
 
@@ -24,7 +24,7 @@ As a beginner developer, you should use a text editor that is fairly easy to und
    :alt: Sublime Text website
 
 Installing Sublime Text
------------------------
+=======================
 
 Find the DMG you downloaded, which is probably in your ``Downloads`` folder and was called ``Sublime Text 2.0.2.dmg`` at the time of this writing. 
 

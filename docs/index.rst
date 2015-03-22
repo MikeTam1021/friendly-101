@@ -4,21 +4,21 @@
    contain the root `toctree` directive.
 
 Welcome to Friendly 101!
-========================
+************************
 
 Friendly 101 is a tutorial and hands-on workshop by the `Friendly Django <https://friendlydjango.org/>`_ Meetup group. It acts as an introduction to the `Django <https://www.djangoproject.com/>`_ web framework for beginners.
 
 This documentation is saved in a `GitHub repository <https://github.com/friendlydjango/friendly-101>`_. If you see any errors in this text, please `file an issue <https://github.com/friendlydjango/friendly-101/issues>`_. The project that results from this tutorial is included in the repository and currently `deployed to Heroku <https://friendly-101.herokuapp.com/>`_.
 
-Prerequisites:
---------------
+Prerequisites
+=============
 
 - A Mac
 - `OS X 10.9 Mavericks <https://www.apple.com/support/osx/mavericks/>`_ or greater
 
 
-Compatibility:
---------------
+Compatibility
+=============
 
 The guide is written for the following versions of software:
 
@@ -27,8 +27,8 @@ The guide is written for the following versions of software:
 - `Django 1.7 <https://docs.djangoproject.com/en/1.7/releases/1.7/>`_
 
 
-Contents:
----------
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
