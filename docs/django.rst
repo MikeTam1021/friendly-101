@@ -131,21 +131,28 @@ To start working on your project again, just run the virtualenvwrapper ``workon`
 
 Additionally you can use the ``cdproject`` command to snap back to your project directory if you ever move away from it.
 
-Now that your project is set up, you can deactivate your virtual environment and exit your Bash Session cleanly.
+Now that your project is set up, you can deactivate your virtual environment.
 
 .. code-block:: bash
 
    (myenv)$ deactivate
+
+Exit your Bash session cleanly.
+
+.. code-block:: bash
+
    $ exit
    logout
 
    [Process completed]
 
-If you'd like to remove the virtual environment and your Django project:
+.. note::
 
-.. code-block:: bash
+   If for whatever reason you'd like to remove your virtual environment and your Django project:
 
-   $ rmvirtualenv myenv
-   $ rm -rf ~/Sites/myproject/
+   .. code-block:: bash
+
+      $ rmvirtualenv myenv
+      $ rm -rf ~/Sites/myproject/
 
 Congratulations on your first steps to becoming a Django web developer!
