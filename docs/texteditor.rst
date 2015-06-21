@@ -53,7 +53,7 @@ Sublime Text is free to use, but it pops up an occasional window reminding you t
 .. figure:: _static/text_editor-purchase.png
    :alt: Sublime Text purchase
 
-I recommend keeping the Sublime Text 2 icon from the "Applications" folder `in the Dock <http://support.apple.com/kb/PH18815>`_ for easy access in the future. ``CONTROL``-click on the Sublime Text 2 icon in your dock, click "Options," and then "Keep in Dock." You can also preserve the presence of Sublime Text 2 by simply dragging the icon into another place on the Dock.
+I recommend preserving the presence of the Sublime Text 2 icon `in the Dock <http://support.apple.com/kb/PH18815>`_ for easy access in the future. ``CONTROL``-click on the Sublime Text 2 icon in your dock, click "Options," and then "Keep in Dock." You can also preserve the presence of Sublime Text 2 by simply dragging the icon into another place on the Dock.
 
 It's always good to remember that what's fashionable today might not be fashionable tomorrow. A few years ago, `TextMate <http://macromates.com/>`_ was the text editor of choice until it languished in development. `Coda <https://panic.com/coda/>`_ has a small but dedicated audience. Veterans use `Vim <https://en.wikipedia.org/wiki/Vim_(text_editor)>`_ and `Emacs <https://en.wikipedia.org/wiki/Emacs>`_, and newcomers include `Brackets <http://brackets.io/>`_ and `Atom <https://atom.io/>`_. You might even get a sheepish confession from someone using `nano <https://en.wikipedia.org/wiki/GNU_nano>`_.
 
