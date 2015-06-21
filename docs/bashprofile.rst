@@ -17,7 +17,7 @@ Why do I need a Bash profile?
 
 The **Bash profile** is a file on your computer that Bash runs every time a new Bash session is created. This is useful because we need to run certain code every time before starting to work.
 
-OS X doesn't include a Bash profile by default, but if you already have one, it lives in your home directory with the name ``.bash_profile``. And if you did have one, you probably never saw it because its name starts with a period. The Finder hides folders and files starting with a period to protect casual users from harming the operating system--but because you're a developer now, we're going to create a Bash profile now!
+OS X doesn't include a Bash profile by default, but if you already have one, it lives in your home directory with the name ``.bash_profile``. And if you did have one, you probably never saw it because its name starts with a period. The Finder hides folders and files starting with a period to protect casual users from harming the operating system---but because you're a developer now, we're going to create a Bash profile!
 
 Creating your Bash profile
 ==========================
@@ -97,7 +97,7 @@ The output might look like one of the two:
 
    /usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-Ensure that ``/usr/local/bin`` is listed prior to ``/usr/bin``.
+Again ensure that ``/usr/local/bin`` is listed prior to ``/usr/bin``.
 
 .. note::
 

@@ -10,6 +10,10 @@ Friendly 101 is a tutorial and hands-on workshop by the `Friendly Django <https:
 
 This documentation is saved in a `GitHub repository <https://github.com/friendlydjango/friendly-101>`_. If you see any errors in this text, please `file an issue <https://github.com/friendlydjango/friendly-101/issues>`_. The project that results from this tutorial is included in the repository and currently `deployed to Heroku <https://friendly-101.herokuapp.com/>`_.
 
+- `https://github.com/friendlydjango/friendly-101 <https://github.com/friendlydjango/friendly-101>`_
+- `https://friendly-101.readthedocs.org/ <https://friendly-101.readthedocs.org/>`_
+- `https://friendly-101.herokuapp.com/ <https://friendly-101.herokuapp.com/>`_
+
 Prerequisites
 =============
 

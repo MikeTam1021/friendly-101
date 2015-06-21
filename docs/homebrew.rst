@@ -3,14 +3,14 @@
 Homebrew
 ********
 
-Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `Some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to drive one to drink until **Homebrew** arrived.
+Several years ago, compiling one's software was a `messy and complicated process <http://hivelogic.com/articles/installing-ruby-on-rails-on-tiger>`_. `Some <https://www.macports.org/>`_ `tried <http://www.finkproject.org/>`_ to create solutions, but it was said that the process was enough to `drive one to drink <https://news.ycombinator.com/item?id=1189274>`_ until **Homebrew** had arrived.
 
 What's Hombrew?
 ===============
 
-Compiling software involves several implied steps: download the zipped source code file, unzip the file, compile the source code, move the binaries to correct locations, arrange the symbolic links, delete the downloaded file, perform any other cleanup or special tasks, determine any dependencies, and do the whole process over again if dependencies do exist. Don't forget about updating and uninstalling.
+Compiling software involves several implied steps, much like downloading and installing a binary: Download the source code, often a `ZIP <https://en.wikipedia.org/wiki/Zip_(file_format)>`_ file of some kind, unzip the file, compile the source code, move the binaries to correct locations, arrange the symbolic links, delete the downloaded file, perform any other cleanup or special tasks, determine any dependencies, and do the whole process over again if dependencies do exist. Don't forget about updating and uninstalling.
 
-`Homebrew <http://brew.sh/>`_ handles all of these tasks as "the missing package manager for OS X" and "installs the stuff you need that Apple didn't." A **package manager** is a program that automates the installation and maintenance of packages, which are self-contained bundles of code. Packages contain not only source code, but also the license, `README <https://en.wikipedia.org/wiki/README>`_, and other release notes. Homebrew manages `thousands of packages <https://github.com/Homebrew/homebrew/tree/master/Library/Formula>`_, each of which has a unique set of installation instructions called "formula."
+`Homebrew <http://brew.sh/>`_ handles all of these tasks as "the missing package manager for OS X" and "installs the stuff you need that Apple didn't." A **package manager** is a program that automates the installation and maintenance of software libraries, which are self-contained bundles of code. Packages contain not only source code, but also the license, `README <https://en.wikipedia.org/wiki/README>`_, and other release notes. Homebrew manages `thousands of packages <https://github.com/Homebrew/homebrew/tree/master/Library/Formula>`_, each of which has a unique set of installation instructions called "formula."
 
 Homebrew installs all software to the ``/usr/local/Cellar`` directory and creates symbolic links in ``/usr/local/bin`` and ``/usr/local/lib`` that point back to your "Cellar." It's a very clean way to manage packages and automates an `existing best practice <http://hivelogic.com/articles/using_usr_local/>`_. And because we edited the ``PATH`` environment variable in :ref:`understanding_your_path` to prioritize ``/usr/local/bin``, all of the software Homebrew installs will take precedence. Perfect!
 
@@ -18,7 +18,7 @@ Homebrew is written in Ruby, but it can be used to compile almost any other soft
 
 .. warning::
 
-   Homebrew is a package manager for larger "general purpose" packages, such as Python, SQLite, MySQL, PostgreSQL, or Git. Do not install packages whose languages have package managers of their own. For example, packages written in Python should not be installed with Homebrew but with pip, which will be explained later.
+   Homebrew is a package manager for larger "general purpose" packages, such as Python, SQLite, MySQL, PostgreSQL, or Git. Do not install packages whose languages have package managers of their own. For example, packages written in Python be installed not with Homebrew but with pip, a package manager for Python, and will be explained later.
 
 Let's start brewing
 ===================
@@ -29,7 +29,7 @@ As a precaution, set the ownership of the ``/usr/local`` directory to yourself. 
 
    $ sudo chown -R `whoami` /usr/local
 
-Please note the use of the `grave accent <https://en.wikipedia.org/wiki/Grave_accent>`_ or "backtick" (`````), which are *not* single quotation marks. Backticks are to the left of the number ``1`` key on many keyboards. You could also use the environment variable ``$USER`` (assuming it wasn't overwritten) or type in your username manually, but this way is easiest and least error prone.
+Please note that the `grave accent <https://en.wikipedia.org/wiki/Grave_accent>`_ or "backtick" (`````), are *not* single quotation marks. Backticks are to the left of the number ``1`` key on many keyboards. You could also use the environment variable ``$USER`` (assuming it wasn't overwritten) or type in your username manually, but backticks are the easiest and least error prone method.
 
 Now install Homebrew.
 
@@ -37,7 +37,7 @@ Now install Homebrew.
 
    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-You should run ``brew doctor`` and any other instructions to make sure Homebrew is up to date and error free.
+You should run ``brew doctor`` and any other on-screen instructions to make sure Homebrew is up to date and error free.
 
 .. code-block:: bash
 
@@ -57,7 +57,7 @@ Django is written in the `Python <https://www.python.org/>`_ programming languag
    $ python --version
    Python 2.7.5
 
-This version of Python is the globally accessible version and a little bit old by now. To remedy these issues, let's use Homebrew to install a newer version of Python.
+This version of Python is the globally accessible version and likely a little bit old by now. To remedy these issues, let's use Homebrew to install a newer version of Python.
 
 .. code-block:: bash
 
@@ -109,31 +109,33 @@ The success message should look something like:
    .app bundles were installed.
    Run `brew linkapps python` to symlink these to /Applications.
 
-You don't need to run the last command in the success message.
+You don't need to run ``brew linkapps python`` in the success message.
 
-Let's find out where our new installation of Python lives.
+Let's find out where our new installation of Python lives and what version it is.
 
 .. code-block:: bash
 
    $ which python
    /usr/local/bin/python
+   $ python --version
+   Python 2.7.9
 
 Excellent! Because we set precedence in our Bash profile to look for programs in ``/usr/local/bin``, and because Homebrew creates symbolic links to that location by default, we get our Homebrew installation whenever we reference Python from now on.
 
 .. note::
 
-   Homebrew prevents multiple versions of Python to be installed at the same time. `pyenv <https://github.com/yyuu/pyenv>`_ is a program that manages different versions of Python, much like the popular `rbenv <http://rbenv.org/>`_ and `RVM <https://rvm.io/>`_ managers for Ruby. But because Homebrew installs Python 2.7.9 by default, which is the `last 2.x.x version of the language <https://www.python.org/dev/peps/pep-0404/>`_, and because Python 3 is installed with the unique ``brew install python3``, I don't recommend needing to install pyenv.
+   Homebrew prevents multiple versions of Python to be installed at the same time. `pyenv <https://github.com/yyuu/pyenv>`_ is a program that manages different versions of Python, much like the popular `rbenv <http://rbenv.org/>`_ and `RVM <https://rvm.io/>`_ managers for Ruby. But because Homebrew installs Python 2.7.x by default, and because Python 3 is installed with the unique ``brew install python3``, I don't recommend needing to install pyenv.
 
 .. note::
 
-   Python 3 is the next major version of the Python programming language. It is a backward-incompatible upgrade, however migration guides for `Python <https://docs.python.org/3/howto/pyporting.html>`_ and `Django <https://docs.djangoproject.com/en/1.7/topics/python3/>`_ exist. Updating code to Python 3 compatibility is a good idea in the long run, but Python 2 is excepted to be supported `until 2020 <https://www.python.org/dev/peps/pep-0373/>`_ at the time of this writing.
+   Python 3 is the next major version of the Python programming language. It is a backward-incompatible upgrade; however migration guides for `Python <https://docs.python.org/3/howto/pyporting.html>`_ and `Django <https://docs.djangoproject.com/en/1.7/topics/python3/>`_ exist. Updating code to Python 3 compatibility is a good idea in the long run, but Python 2 is excepted to be supported `until 2020 <https://www.python.org/dev/peps/pep-0373/>`_ at the time of this writing.
 
 Installing SQLite
 =================
 
 Django also requires a `SQL database <https://docs.djangoproject.com/en/1.7/intro/install/#set-up-a-database>`_. `SQL <https://en.wikipedia.org/wiki/SQL>`_, which stands for Structured Query Language, is a category of programming languages that interact with `relational databases <http://en.wikipedia.org/wiki/Relational_database>`_.
 
-`SQLite <http://www.sqlite.org/>`_ is a good candidate for beginner developers because it's easier to use than its more complex but more robust peers, like `PostgreSQL <http://www.postgresql.org/>`_ and `MySQL <http://www.mysql.com/>`_.
+`SQLite <http://www.sqlite.org/>`_ is a good candidate for beginning developers and development on your computer because it's easier to use than its more complex but robust peers, like `PostgreSQL <http://www.postgresql.org/>`_ and `MySQL <http://www.mysql.com/>`_. By default, Django expects SQLite because it helps start development quickly. Install SQLite with Hombrew.
 
 .. code-block:: bash
 
@@ -176,7 +178,7 @@ The success message should look something like:
 
 .. warning::
 
-   Do not use SQLite in a production environment. SQLite supports a low number of concurrent database connections, which makes it a good candidate for development local to your computer, but is not recommended for use on the web.
+   Do not use SQLite in a production environment. SQLite supports a low number of concurrent database connections, which makes it a good candidate for development on your personal computer, but is not recommended for use on the web.
 
 Troubleshooting Homebrew
 ========================
