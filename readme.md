@@ -2,9 +2,11 @@
 
 Friendly 101 is a tutorial and hands-on workshop by the [Friendly Django](https://friendlydjango.org/) Meetup group. It acts as an introduction to the [Django](https://www.djangoproject.com/) web framework for beginners.
 
-## Documentation
+- [https://github.com/friendlydjango/friendly-101](https://github.com/friendlydjango/friendly-101)
+- [https://friendly-101.readthedocs.org/](https://friendly-101.readthedocs.org/)
+- [https://friendly-101.herokuapp.com/](https://friendly-101.herokuapp.com/)
 
-[https://friendly-101.readthedocs.org](https://friendly-101.readthedocs.org/)
+## Documentation
 
 You will likely simply want to [read the tutorial](https://friendly-101.readthedocs.org/), but keep reading if you're curious about generating it for yourself.
 
@@ -33,8 +35,6 @@ sphinx-autobuild docs docs/_build/html
 ```
 
 ## Deployed application
-
-[https://friendly-101.herokuapp.com](https://friendly-101.herokuapp.com/)
 
 The sample application from the tutorial is included in the repository. You should probably follow the tutorial for full effect, but the project can be run in development.
 
