@@ -21,9 +21,9 @@ REPOSITORY_DIR = os.path.join(BASE_DIR, os.pardir)
 
 # Website
 
-SECRET_KEY = os.environ.get('FRIENDLY101_SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY', '*^#v&4e)5=%d#nx&_@gq@s1q2^pv@u)!=rc6f=9ae#o@nr$6pm')
 
-DEBUG = os.environ.get('DEBUG', True)
+DEBUG = bool(os.environ.get('DEBUG', True))
 
 TEMPLATE_DEBUG = True
 
